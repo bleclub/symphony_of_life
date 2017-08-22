@@ -81,8 +81,9 @@ Main components
 }
 .lang_bar li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 5px;
   cursor: pointer;
+  color: #fff;
 }
 .lang_bar li a {
   color: #fff;

@@ -65,7 +65,7 @@ Main components
   font-family: 'DIN-Medium';
 }
 .cd-section:nth-of-type(even) {
-  background-color: #745360;
+  background-color: #ffffff;
 }
 .cd-section:nth-of-type(even) p {
   color: #bda3ad;
@@ -83,10 +83,10 @@ Main components
   display: inline-block;
   margin: 0 5px;
   cursor: pointer;
-  color: #fff;
+  color: #9e8d67;
 }
 .lang_bar li a {
-  color: #fff;
+  color: #9e8d67;
 }
 
 
@@ -131,6 +131,143 @@ Main components
 }
 
 
+/* About section */
+
+#about{
+  padding: 100px 0;
+  min-height: auto;
+}
+
+#about h2{
+  color: #000000;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0 0 40px;
+}
+
+#about .img-key{
+  box-shadow: 1px 2px 5px #666;
+}
+
+#about .img_title p {
+  color: #000000;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 50px 0 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+#about .img_title .text_subject {
+  font-family: din-medium;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+
+/* How to play section */
+
+#howtoplay {
+  background-image: url("../images/bg_howtoplay.jpg");
+  background-position: center center;
+  background-size: cover;
+  padding: 100px;
+  width: 100%;
+}
+
+#howtoplay .text_campaign{
+  margin: 0 0 40px;
+}
+
+#howtoplay .text_campaign h3 {
+  color: #9b8d6d;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 0 20px;
+  position: relative;
+  top: 0;
+}
+
+#howtoplay .text_campaign p {
+  font-size: 20px;
+  left: auto;
+  line-height: 28px;
+  position: relative;
+  text-align: left;
+  top: auto;
+  transform: translate(0px);
+}
+
+#howtoplay .text_campaign .text_hashtag {
+  color: #fff;
+  font-size: 24px;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+#howtoplay .text_hashtag > span {
+  float: left;
+  font-size: 20px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+#howtoplay .text_campaign.right p {
+  font-size: 26px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+.custom-counter{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 18px;
+    list-style: outside none decimal;
+}
+
+#howtoplay .text_winner {
+  color: #fff;
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: 30px;
+}
+
+#howtoplay .text_campaign ul li {
+  color: #fff;
+  font-size: 14px;
+  line-height:20px;
+  list-style: inside none none;
+  padding: 0 0 0 10px;
+}
+
+.custom-counter li {
+  font-family: tahoma;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+
+/* .custom-counter {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.custom-counter li {
+  counter-increment: step-counter;
+  margin-bottom: 5px;
+}
+.custom-counter li::before {
+  content: counter(step-counter);
+  margin-right: 20px;
+  font-size: 80%;
+  background-color: rgb(180, 180, 180);
+  color: white;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 11px;
+} */
+
 .cd-section h1, .cd-section p{
   position: absolute;
   left: 50%;
@@ -168,6 +305,29 @@ Main components
     /* font-size: 1.25rem; */
     line-height: 2;
   }
+}
+
+.link_discover{
+  position: absolute;
+  left: 50%;
+  right: auto;
+  color: #ffffff;
+  text-transform: uppercase;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 50px;
+  width: 150px;
+  height: 44px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.link_discover:hover{
+  color: #ffffff;
+  outline: none;
 }
 
 .cd-scroll-down {
@@ -233,11 +393,15 @@ Main components
   -o-transform: scale(1);
   transform: scale(1);
 }
+
+
+
+
 .no-touch #cd-vertical-nav a:hover .cd-label {
   opacity: 1;
 }
 .no-touch #cd-vertical-nav a.is-selected .cd-dot {
-  background-color: white;
+  background-color: #9e8d67;
 }
 .no-touch #cd-vertical-nav .cd-dot {
   position: relative;
@@ -256,11 +420,15 @@ Main components
   -o-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
+
+.no-touch #cd-vertical-nav a:hover .cd-dot{
+  background-color: #9e8d67;  
+}
 .no-touch #cd-vertical-nav .cd-label {
   position: relative;
   margin-right: 10px;
   padding: .4em .5em;
-  color: white;
+  color: #9e8d67;
   font-size: 14px;
   /* font-size: 0.875rem; */
   -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;

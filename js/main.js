@@ -16,7 +16,21 @@ jQuery(document).ready(function($){
     $('.cd-scroll-down').on('click', function(event){
         event.preventDefault();
         smoothScroll($(this.hash));
-    });
+	});
+	
+	$(window).scroll(function () {
+		//if you hard code, then use console
+		//.log to determine when you want the 
+		//nav bar to stick.  
+		console.log($(window).scrollTop())
+	  if ($(window).scrollTop() > 300) {
+		$('.nav_bar').addClass('navbar-fixed');
+	  }
+	  if ($(window).scrollTop() < 301) {
+		$('.nav_bar').removeClass('navbar-fixed');
+	  }
+	});
+
 
     //open-close navigation on touch devices
     $('.touch .cd-nav-trigger').on('click', function(){

@@ -71,13 +71,19 @@ Main components
   color: #bda3ad;
 }
 
+.TLS_Nav{
+  display: none;
+  width: 100px;
+  float: left;
+}
+
 
 .lang_bar {
   position: absolute;
   z-index: 99;
   right: 0;
   font-size: 16px;
-  margin: 50px 40px 0 0;
+  margin: 50px 50px 0 0;
 }
 .lang_bar li {
   display: inline-block;
@@ -88,6 +94,40 @@ Main components
 .lang_bar li a {
   color: #9e8d67;
 }
+
+.nav_bar{ 
+  background-color: rgba(10, 31, 41, 0.9);
+  height: 100px;
+  position: fixed;
+  top: -100px;
+  width: 100%;
+  z-index: 999;
+  padding: 15px 50px 15px 100px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav_bar.navbar-fixed {
+  top: 0;
+  /* display: inline-block; */
+}
+
+.nav_bar.navbar-fixed .TLS_Nav{
+  display:inline-block;
+}
+
+.nav_bar.navbar-fixed .lang_bar {
+  position: relative;
+  z-index: 99;
+  right: 0;
+  font-size: 16px;
+  float: right;
+  margin: 40px 0 0;
+}
+
+
+
 
 
 /* Home section */
@@ -173,7 +213,7 @@ Main components
   background-image: url("../images/bg_howtoplay.jpg");
   background-position: center center;
   background-size: cover;
-  padding: 100px;
+  padding: 0;
   width: 100%;
 }
 
@@ -218,6 +258,7 @@ Main components
   font-size: 26px;
   line-height: 28px;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 .custom-counter{
     color: #ffffff;
@@ -230,6 +271,7 @@ Main components
   color: #fff;
   font-size: 24px;
   line-height: 34px;
+  font-family: din-medium;
   margin-top: 30px;
 }
 
@@ -255,6 +297,106 @@ Main components
   vertical-align: middle;
   width: 100%;
 }
+
+
+#howtoplay .top { 
+	background:#000 url("../images/photo-tile-bg.jpg") repeat; 
+	font-family: 'Open Sans',arial,serif;
+	padding: 100px;
+	-webkit-animation: bgAnimate 25s infinite linear;
+	-moz-animation: bgAnimate 25s infinite linear;
+	-ms-animation: bgAnimate 25s infinite linear;
+	-o-animation: bgAnimate 25s infinite linear;
+	animation: bgAnimate 25s infinite linear;
+}
+
+@-webkit-keyframes bgAnimate {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100% 0;
+    }
+}
+
+@-moz-keyframes bgAnimate {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100% 0;
+    }
+}
+
+@-ms-keyframes bgAnimate {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100% 0;
+    }
+}
+
+@-o-keyframes bgAnimate {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100% 0;
+    }
+}
+
+@keyframes bgAnimate {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100% 0;
+    }
+}
+
+/* Live Section */
+
+#live {
+  /* min-height: auto; */
+  padding: 50px 100px;
+}
+#live > h3 {
+  font-size: 3rem;
+  text-align: center;
+  color: #000000;
+}
+
+
+/* Footer Section */
+
+
+footer{
+  background-color: #0a1f29;
+  height: 100px;
+  padding: 20px 100px;
+}
+
+footer .rml_logo {
+  float: left;
+  width: 90px;
+}
+footer .copyright > p {
+  color: #ffffff;
+  float: right;
+  font-family: din-medium;
+  font-size: 12px;
+  margin: 0;
+  padding: 30px 0;
+  position: relative;
+  text-transform: uppercase;
+}
+
 
 .custom-counter li {
   font-family: tahoma;
@@ -425,7 +567,7 @@ Main components
   height: 12px;
   width: 12px;
   border-radius: 50%;
-  background-color: #08161d;
+  background-color: #999999;
   -webkit-transition: -webkit-transform 0.2s, background-color 0.5s;
   -moz-transition: -moz-transform 0.2s, background-color 0.5s;
   transition: transform 0.2s, background-color 0.5s;

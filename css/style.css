@@ -83,7 +83,7 @@ Main components
   z-index: 99;
   right: 0;
   font-size: 16px;
-  margin: 50px 50px 0 0;
+  margin: 50px 100px 0 0;
 }
 .lang_bar li {
   display: inline-block;
@@ -102,7 +102,7 @@ Main components
   top: -100px;
   width: 100%;
   z-index: 999;
-  padding: 15px 50px 15px 100px;
+  padding: 15px 100px 15px;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -300,8 +300,7 @@ Main components
 
 
 #howtoplay .top { 
-	background:#000 url("../images/photo-tile-bg.jpg") repeat; 
-	font-family: 'Open Sans',arial,serif;
+	background:#000 url("../images/photo-tile-bg.jpg") repeat;
 	padding: 100px;
 	-webkit-animation: bgAnimate 25s infinite linear;
 	-moz-animation: bgAnimate 25s infinite linear;

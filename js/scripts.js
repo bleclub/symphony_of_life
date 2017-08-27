@@ -15,7 +15,7 @@ $(document).ready(function(){
 	// Calling the Plugin
 	$('.element').instagramElement({
 		mode : 'tag',
-		tag : 'mahanakhon',
+		tag : 'symphonyoflife',
 		userID : '6776132',
 		accessToken : '6776132.e029fea.19201489e46347fd8214502039746320',
 		galleryMode: 'classic',

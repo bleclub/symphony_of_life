@@ -46,7 +46,7 @@
 }
 
 .btn-inverse {
-	color: white;
+	/* color: white;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 	background-color: #006DCC;
 	background-image: -moz-linear-gradient(top, #08C, #04C);
@@ -57,10 +57,21 @@
 	background-repeat: repeat-x;
 	border-color: #04C #04C #002A80;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
-	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); */
+	border: 1px solid #000000;
+    border-radius: 20px;
+    color: #000000;
+    font-family: din-medium;
+    font-size: 16px;
+    height: 40px;
+    padding: 15px 0;
+    text-transform: uppercase;
+    transition: background 0.6s ease 0s;
+	width: 150px;
+	background: transparent;
 }
 
-.btn:hover { color:#fff; }
+.btn:hover { color:#ffffff; background: #000000; }
 
 .clear { clear:both; }
 
@@ -73,14 +84,14 @@
 	cursor:pointer;
 	float:left;
 	line-height:0;
-	margin:0;
+	margin:5px;
 	overflow:hidden;
 	position:relative;
-	width:20%;
+	width:19%;
 }
 
-.instagram-element .instagram-photo.image { background-color: #3dc0f1; }
-.instagram-element .instagram-photo.video { background-color: #cc0000; }
+.instagram-element .instagram-photo.image { background-color: #0b1f2a; }
+.instagram-element .instagram-photo.video { background-color: #e62117; }
 
 .instagram-element .instagram-photo img { 
 	opacity: 1;
@@ -102,8 +113,8 @@
 .instagram-element .instagram-photo .element-meta {
 	color: #fff;
 	filter: alpha(opacity=0);
-	font-family: 'Oswald',arial,serif; 
-	font-size: 20px;
+	font-family: din-medium;
+	font-size: 18px;
 	font-weight: 700;
 	left: 0;
 	line-height: 11px;
@@ -151,7 +162,7 @@ body .instagram-element .instagram-media img { -webkit-transform: scale(1.3); -m
 
 /* Fancybox Information */
 .fancybox-nav { height:90%; width: 20%; }
-.fancybox-overlay .username-ui { font-family: 'Oswald',arial,serif; font-size: 20px; font-weight: 700; }
+.fancybox-overlay .username-ui { font-family: din-medium; font-size: 20px; font-weight: 700; }
 .fancybox-overlay .date-ui { color:#a9abae; display:block; font-weight: 700; margin-bottom:3px; text-transform:uppercase; }
 .fancybox-overlay .description-ui {}
 .fancybox-overlay .likes-ui {}

@@ -369,6 +369,24 @@ Main components
   font-size: 3rem;
   text-align: center;
   color: #000000;
+  margin: 50px 0;
+}
+
+.username-ui {
+  font-size: 18px;
+  width: 100%;
+}
+.date-ui {
+  float: left;
+  font-size: 13px;
+  margin: 10px 0;
+  text-transform: uppercase;
+  width: 100%;
+}
+.description-ui {
+  float: left;
+  margin: 0 0 10px;
+  width: 100%;
 }
 
 

@@ -202,7 +202,9 @@
 
 .fancybox-title {
 	visibility: hidden;
-	font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	/* font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif; */
+	font-family: din-medium;
+	font-size: 13px;	
 	position: relative;
 	text-shadow: none;
 	z-index: 8050;
@@ -244,7 +246,14 @@
 }
 
 .fancybox-title-inside-wrap {
-	padding-top: 10px;
+	padding: 20px;
+	background-color: #0a1f29;
+	color: #fff;
+}
+
+.fancybox-title-inside-wrap a{
+	color: #fff;
+	text-decoration: underline;
 }
 
 .fancybox-title-over-wrap {

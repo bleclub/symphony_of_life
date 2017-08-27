@@ -1,4 +1,5 @@
 jQuery(document).ready(function($){
+
 	var contentSections = $('.cd-section'),
 		navigationItems = $('#cd-vertical-nav a');
 

@@ -241,6 +241,21 @@ Main components
   padding: 0 0 0 10px;
 }
 
+#howtoplay .tab_highlight {
+  background-color: #9b8d6d;
+  bottom: 0;
+  color: #002336;
+  font-size: 2.5rem;
+  height: 60px;
+  left: 0;
+  padding: 20px 0;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  width: 100%;
+}
+
 .custom-counter li {
   font-family: tahoma;
   font-size: 20px;

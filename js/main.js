@@ -14,7 +14,7 @@ jQuery(document).ready(function($){
         smoothScroll($(this.hash));
     });
     //smooth scroll to second section
-    $('.cd-scroll-down').on('click', function(event){
+    $('.cd-scroll-down, .link_discover').on('click', function(event){
         event.preventDefault();
         smoothScroll($(this.hash));
 	});

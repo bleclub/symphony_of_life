@@ -314,6 +314,15 @@ Main components
 }
 
 
+.icon_social {
+  margin: 0 20px 20px;
+}
+.icon_social img {
+  margin: 0 20px 0 0;
+}
+
+
+
 #howtoplay .top { 
 	background:#000 url("../images/photo-tile-bg.jpg") repeat;
 	padding: 100px;
@@ -402,6 +411,14 @@ Main components
   float: left;
   margin: 0 0 10px;
   width: 100%;
+}
+
+
+
+.TLS_Banner{
+  background-image: url('../images/TLS-Banner.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 
@@ -514,7 +531,7 @@ footer .copyright > p {
   font-size: 16px;
 }
 
-.link_discover:hover{
+.link_discover:hover, .link_discover:focus{
   color: #ffffff;
   outline: none;
 }

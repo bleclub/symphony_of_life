@@ -87,10 +87,10 @@
 	margin:5px;
 	overflow:hidden;
 	position:relative;
-	width:19%;
+	width:24%;
 }
 
-.instagram-element .instagram-photo.image { background-color: #0b1f2a; }
+.instagram-element .instagram-photo.image { background-color: #003145; }
 .instagram-element .instagram-photo.video { background-color: #e62117; }
 
 .instagram-element .instagram-photo img { 

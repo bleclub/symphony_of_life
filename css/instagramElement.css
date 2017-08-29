@@ -59,7 +59,7 @@
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
 	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); */
 	border: 1px solid #000000;
-    border-radius: 20px;
+    border-radius: 10px;
     color: #000000;
     font-family: din-medium;
     font-size: 16px;
@@ -115,9 +115,8 @@
 	filter: alpha(opacity=0);
 	font-family: din-medium;
 	font-size: 18px;
-	font-weight: 700;
 	left: 0;
-	line-height: 11px;
+	line-height: 24px;
 	opacity: 0;
 	position: absolute;
 	text-align: center;

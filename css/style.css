@@ -447,8 +447,7 @@ Main components
   .masonry.gutterless .brick {
     margin-bottom: 0;
   }
-  .span {
-  }
+  
   @media only screen and (min-width: 1024px) {
   .desc {
     font-size: 1.25em;

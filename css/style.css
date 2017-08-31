@@ -385,9 +385,15 @@ Main components
 
 /* Live Section */
 
+
+
 #live {
   /* min-height: auto; */
   padding: 50px 100px;
+  background-image: url('../images/bg_live.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 
@@ -409,6 +415,59 @@ Main components
   color: #9e8d67;
   margin: 0 0 50px;
 }
+
+
+  .masonry {
+    column-fill: initial;
+    column-gap: 10px;
+    transition: all 0.5s ease-in-out 0s;
+    padding: 0 0 50px;
+  }
+  .masonry .brick {
+    margin-bottom: 5px;
+  }
+  .masonry .brick img {
+    transition: all 0.5s ease-in-out 0s;
+  }
+  .masonry .brick:hover img {
+    opacity: 0.75;
+  }
+  .masonry.bordered {
+    column-gap: 50px;
+    column-rule: 1px solid #eee;
+  }
+  .masonry.bordered .brick {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+  }
+  .masonry.gutterless {
+    column-gap: 0;
+  }
+  .masonry.gutterless .brick {
+    margin-bottom: 0;
+  }
+  .span {
+  }
+  @media only screen and (min-width: 1024px) {
+  .desc {
+    font-size: 1.25em;
+  }
+  .intro {
+    letter-spacing: 1px;
+  }
+  
+  .masonry {
+    column-count: 4;
+  }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .masonry {
+    column-count: 2;
+  }
+  }
+
+
 
 .username-ui {
   font-size: 18px;

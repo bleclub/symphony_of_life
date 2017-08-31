@@ -187,7 +187,7 @@ Main components
 }
 
 #about .img-key{
-  box-shadow: 1px 2px 5px #666;
+  /* box-shadow: 1px 2px 5px #666; */
 }
 
 #about .img_title p {
@@ -270,21 +270,11 @@ Main components
 }
 .custom-counter{
     color: #ffffff;
-    font-family: sans-serif;
+    font-family: Helvetica;
     font-size: 18px;
     list-style: decimal;
 }
 
-#howtoplay .text_winner {
-  color: #fff;
-  font-size: 20px;
-  line-height: 34px;
-  font-family: din-medium;
-  margin-top: 30px;
-  font-style: italic;
-  text-transform: uppercase;
-  text-align: center;
-}
 
 #howtoplay .text_campaign ul {
   padding: 0 0 0 20px;
@@ -399,11 +389,25 @@ Main components
   /* min-height: auto; */
   padding: 50px 100px;
 }
+
+
+#live .text_winner {
+  color: #9e8d67;
+  font-size: 24px;
+  line-height: 34px;
+  font-family: din-medium;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 #live > h3 {
   font-size: 3rem;
   text-align: center;
   color: #9e8d67;
-  margin: 50px 0;
+  margin: 0 0 50px;
 }
 
 .username-ui {
@@ -458,11 +462,10 @@ footer .copyright > p {
 
 
 .custom-counter li {
-  font-family: sans-serif;
-  font-size: 20px;
-  line-height: 30px;
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 40px;
 }
-
 
 /* .custom-counter {
   margin: 0;

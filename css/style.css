@@ -58,14 +58,14 @@ Main components
   padding: 2em 0;
 }
 .cd-section:nth-of-type(odd) {
-  background-color: #0b1f29;
+  background-color: #003145;
 }
 .cd-section:nth-of-type(odd) p {
   color: #ffffff;
   font-family: 'DIN-Medium';
 }
 .cd-section:nth-of-type(even) {
-  background-color: #ffffff;
+  background-color: #003145;
 }
 .cd-section:nth-of-type(even) p {
   color: #bda3ad;
@@ -180,7 +180,7 @@ Main components
 }
 
 #about h2{
-  color: #000000;
+  color: #ffffff;
   font-size: 24px;
   line-height: 30px;
   margin: 0 0 40px;
@@ -191,7 +191,7 @@ Main components
 }
 
 #about .img_title p {
-  color: #000000;
+  color: #ffffff;
   font-size: 18px;
   line-height: 25px;
   margin: 50px 0 0;
@@ -203,6 +203,7 @@ Main components
 #about .img_title .text_subject {
   font-family: din-medium;
   text-transform: uppercase;
+  color: #9e8d67;
   font-size: 30px;
   text-align: center;
   width: 100%;
@@ -315,12 +316,21 @@ Main components
 
 
 .icon_social {
-  margin: 0 20px 20px;
+  margin: 0 0px 20px;
 }
 .icon_social img {
   margin: 0 20px 0 0;
 }
 
+.fa.icon {
+  color: #fff;
+  margin: 0 20px;
+}
+
+.icon_social span {
+  color: #fff;
+  font-size: 16px;
+}
 
 
 #howtoplay .top { 
@@ -392,7 +402,7 @@ Main components
 #live > h3 {
   font-size: 3rem;
   text-align: center;
-  color: #000000;
+  color: #9e8d67;
   margin: 50px 0;
 }
 

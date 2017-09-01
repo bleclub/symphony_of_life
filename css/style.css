@@ -316,12 +316,21 @@ Main components
 
 
 .icon_social {
-  margin: 0 20px 20px;
+  margin: 0 0px 20px;
 }
 .icon_social img {
   margin: 0 20px 0 0;
 }
 
+.fa.icon {
+  color: #fff;
+  margin: 0 ;
+}
+
+.icon_social span {
+  color: #fff;
+  font-size: 16px;
+}
 
 
 #howtoplay .top { 

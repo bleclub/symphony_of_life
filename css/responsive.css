@@ -117,5 +117,92 @@
     #about .img_title .text_subject{
         font-size: 20px;
     }
-    
+
+}
+
+@media (max-width: 760px) {
+    .nav_bar {
+        height: 90px;
+        padding: 15px 20px;
+        top: 0;
+    }
+
+    .nav_bar .lang_bar{
+        display: inline-block;
+        float: right;
+        font-size: 16px;
+        margin: 40px 0 0;
+        position: relative;
+        right: 0;
+        z-index: 99;
+    }
+
+    .TLS_Nav{
+        width: 80px;
+    }
+
+    #home .TLS_Logo, .lang_bar{
+        display: none;
+    }
+
+    #about h2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #about .img_title p {
+        float: left;
+        font-size: 18px;
+        height: auto;
+        line-height: 18px;
+        margin: 50px 0 10px;
+    }
+    #about .img_title .text_subject {
+        font-size: 30px;
+        margin-bottom:20px;
+    }
+
+    #howtoplay .top {
+        padding: 100px 20px;
+    }
+
+    #howtoplay .text_campaign h3 {
+        font-size: 4rem;
+    }
+
+    #howtoplay .text_campaign .text_hashtag {
+        font-size: 18px;
+    }
+
+    #howtoplay .text_hashtag > span{
+        font-size: 16px;
+    }
+
+    #howtoplay .text_campaign .img{
+        width: 100%;
+    }
+
+    .custom-counter li{
+        line-height: 24px;
+    }
+
+    #howtoplay .tab_highlight{
+        height: 90px;
+        padding: 20px;
+    }
+
+    #live {
+        padding: 20px 0;
+    }
+
+    footer .rml_logo {
+        float: none;
+        margin: 0 auto;
+        width: 60px;
+    }
+
+    footer .copyright > p{
+        text-align: center;
+    }
+
 }

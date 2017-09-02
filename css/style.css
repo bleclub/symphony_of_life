@@ -202,7 +202,7 @@ Main components
 
 #about .img_title .text_subject {
   font-family: din-medium;
-  text-transform: uppercase;
+  text-transform:lowercase;
   color: #9e8d67;
   font-size: 30px;
   text-align: center;
@@ -424,7 +424,7 @@ Main components
     padding: 0 0 50px;
   }
   .masonry .brick {
-    margin-bottom: 5px;
+    margin-bottom: 2.5px;
   }
   .masonry .brick img {
     transition: all 0.5s ease-in-out 0s;
@@ -522,7 +522,7 @@ footer .copyright > p {
 .custom-counter li {
     font-family: Helvetica;
     font-size: 18px;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 /* .custom-counter {

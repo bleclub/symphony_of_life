@@ -197,10 +197,10 @@ body .instagram-element .instagram-media img { -webkit-transform: scale(1); -moz
 	
 	/* Classic View */
 	.instagram-element .instagram-photo {}
-	.instagram-element .instagram-photo:hover img { opacity: 1; }
+	.instagram-element .instagram-photo:hover img { opacity: 0.1; }
 	
 	.instagram-element .instagram-photo.image .icon, 
-	.instagram-element .instagram-photo .element-meta { display:none; }
+	.instagram-element .instagram-photo .element-meta { display:inline-block; }
 	
 	.instagram-element .instagram-stage { padding: 100px 0; }
 	.instagram-element .instagram-media { background:none; float:none; height: auto; margin:0 auto; width:90%; }

@@ -135,6 +135,7 @@ Main components
 #home{
   background-image: url('../images/hero_keyvisual_symphony.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 #home.cd-section .kv_text {
@@ -227,6 +228,7 @@ Main components
 #howtoplay .text_campaign .img{
   padding: 0;
   margin: 20px 0 0;
+  width: 80%;
 }
 
 #howtoplay .text_campaign h3 {
@@ -327,12 +329,13 @@ Main components
 
 .fa.icon {
   color: #fff;
-  margin: 0 20px;
+  margin: 0 10px 0 20px;
 }
 
 .icon_social span {
   color: #fff;
   font-size: 16px;
+  font-family: Helvetica;
 }
 
 
@@ -474,9 +477,9 @@ Main components
   }
   }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .masonry {
-    column-count: 2;
-  }
+    .masonry {
+      column-count: 3;
+    }
   }
 
 
@@ -534,7 +537,7 @@ footer .copyright > p {
 
 .custom-counter li {
     font-family: Helvetica;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
 }
 

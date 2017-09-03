@@ -36,6 +36,10 @@
         margin: 50px 40px 0 0;
     }
 
+    .click_to_website{
+        right: 50px;
+    }
+
     .nav_bar{
         padding:15px 40px;
     }
@@ -145,6 +149,59 @@
         display: none;
     }
 
+    .nav_bar.navbar-fixed .lang_bar{
+        display: inline-block;
+        float: right;
+        font-size: 16px;
+        margin: 30px 50px 0 0;
+        position: relative;
+        right: 0;
+        z-index: 99;
+    }
+
+    .nav_bar .lang_bar {
+        display: inline-block;
+        float: right;
+        font-size: 16px;
+        margin: 30px 50px 0 0;
+        position: relative;
+        right: 0;
+        z-index: 99;
+    }
+
+    .discover_more {
+        bottom: 20px;
+        position: absolute;
+        width: 100%;
+    }
+
+    .click_to_website{
+        right: 0px;
+        width: 100%;
+    }
+
+    .click_to_website a{
+        width: 100%;
+    }
+
+
+    #home.cd-section p {
+        font-size: 14px;
+        letter-spacing: 2px;
+        line-height: 1.5;
+        margin: 120px 0 0;
+        width: 80%;
+    }
+
+    .cd-scroll-down {
+        width: 60px;
+    }
+
+    .link_discover {
+        font-size: 12px;
+        height: 30px;
+    }
+
     #about h2 {
         font-size: 16px;
         line-height: 24px;
@@ -160,6 +217,11 @@
     #about .img_title .text_subject {
         font-size: 30px;
         margin-bottom:20px;
+    }
+
+    #about .about_img {
+        margin: 0 auto;
+        width: 80%;
     }
 
     #howtoplay .top {
@@ -195,14 +257,104 @@
         padding: 20px 0;
     }
 
+    footer {
+        float: left;
+        height: auto;
+        margin: 20px 0 0;
+        padding: 20px 10px;
+        position: relative;
+        top: -25px;
+        width: 100%;
+    }
+
     footer .rml_logo {
         float: none;
         margin: 0 auto;
         width: 60px;
     }
 
-    footer .copyright > p{
+    footer .copyright > p {
+        font-size: 10px;
+        margin: 20px 0 0;
+        padding: 0;
         text-align: center;
+        width: 100%;
     }
 
+    #howtoplay .text_campaign p {
+        font-size: 16px;
+        line-height: 26px;
+        width: 100%;
+    }
+    
+
+}
+
+@media (max-width: 375px) {
+    #home.cd-section p{
+        width: 90%;
+    }
+
+    #howtoplay .top {
+        padding: 100px 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    #home.cd-section p {
+        font-size: 14px;
+        letter-spacing: 1px;
+        width: 90%;
+    }
+    #howtoplay .top {
+        padding: 100px 15px;
+    }
+
+    .custom-counter {
+        color: #ffffff;
+        font-family: Helvetica;
+        list-style: outside none decimal;
+        padding-left: 20px;
+    }
+
+    .custom-counter li {
+        font-size: 14px;
+    }
+    .fa.icon {
+        color: #fff;
+        margin: 0 10px;
+    }
+}
+
+@media (min-width: 560px) and (max-width: 736px) {
+    #home.cd-section .kv_text{
+        top: 40%;
+        width: 60%;
+    }
+
+    #home.cd-section p {
+        font-size: 14px;
+        letter-spacing: 2px;
+        line-height: 1.5;
+        margin: 50px 0 0;
+        width: 85%;
+    }
+
+    #about .about_img {
+        float: left;
+        margin: 0 auto;
+        width: 20%;
+    }
+
+    #about .img_title p {
+        float: left;
+        font-size: 12px;
+        height: 40px;
+        line-height: 18px;
+        margin: 45px 0 0px;
+    }
+    #about .img_title .text_subject {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
 }

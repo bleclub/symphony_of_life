@@ -39,14 +39,27 @@
 @media (max-width: 1024px) {
     #home .TLS_Logo {
         width: 120px;
+        display: none;
     }
 
     .lang_bar li{
         font-family: Helvetica;
     }
 
-    .lang_bar{
-        margin: 50px 40px 0 0;
+    #home .TLS_Logo, .lang_bar{
+        display: none;
+    }
+
+    .nav_bar .lang_bar {
+        display: inline-block;
+    }
+
+    .lang_bar {
+        margin: 28px 100px 0 0;
+    }
+
+    .nav_bar.navbar-fixed .lang_bar{
+        margin: 28px 60px 0 0;
     }
 
     .click_to_website{
@@ -55,6 +68,7 @@
 
     .nav_bar{
         padding:15px 40px;
+        top: 0;
     }
 
     #home.cd-section p {
@@ -133,6 +147,11 @@
     footer{
         height: 100px;
         padding: 20px 40px;
+    }
+    .touch #cd-vertical-nav{
+        max-height:190px;
+        top: 70px;
+        z-index: 102;
     }
 }
 

@@ -16,7 +16,7 @@ html * {
 
 body {
   font-size: 100%;
-  font-family: 'DIN-Medium', sans-serif;
+  font-family: 'DIN-Medium','Prompt', sans-serif;
   color: #3e3947;
   background-color: white;
 }
@@ -62,7 +62,7 @@ Main components
 }
 .cd-section:nth-of-type(odd) p {
   color: #ffffff;
-  font-family: 'DIN-Medium';
+  font-family: 'DIN-Medium', 'Prompt';
 }
 .cd-section:nth-of-type(even) {
   background-color: #003145;
@@ -93,7 +93,7 @@ Main components
 }
 .lang_bar li a {
   color: #9e8d67;
-  font-family: din-medium;
+  font-family: helvetica;
 }
 
 .nav_bar{ 
@@ -160,13 +160,17 @@ Main components
 }
 #home.cd-section p{
   color: #ffffff;
-  font-family: 'DIN-Medium';
+  font-family: 'DIN-Medium', 'Prompt';
   font-size: 20px;
   margin: 150px 0 0;
   letter-spacing: 1px;
   line-height: 1.5;
   text-transform: uppercase;
   /* animation-fill-mode: none; */
+}
+
+.th #home.cd-section p{
+  font-size: 24px;
 }
 
 #home .TLS_Logo {
@@ -189,6 +193,10 @@ Main components
   margin: 0 0 40px;
 }
 
+.th #about h2{
+  font-size: 20px;
+}
+
 #about .img-key{
   /* box-shadow: 1px 2px 5px #666; */
 }
@@ -204,7 +212,7 @@ Main components
 }
 
 #about .img_title .text_subject {
-  font-family: din-medium;
+  font-family: din-medium, Prompt;
   text-transform:lowercase;
   color: #9e8d67;
   font-size: 30px;
@@ -224,7 +232,7 @@ Main components
   border-radius: 5px;
   color: #ffffff;
   display: inline-block;
-  font-family: din-medium;
+  font-family: din-medium, Prompt;
   font-size: 13px;
   height: 40px;
   padding: 15px 0 0;
@@ -281,6 +289,10 @@ Main components
   transform: translate(0px);
 }
 
+.th #howtoplay .text_campaign p{
+  font-size: 18px;
+}
+
 #howtoplay .text_campaign .text_hashtag {
   color: #fff;
   font-size: 24px;
@@ -306,7 +318,7 @@ Main components
   color: #fff;
   font-size: 14px;
   margin: 20px;
-  font-family: Helvetica;
+  font-family: Helvetica,'Prompt';
 }
 
 .terms a {
@@ -558,7 +570,7 @@ footer .rml_logo {
 footer .copyright > p {
   color: #ffffff;
   float: right;
-  font-family: din-medium;
+  font-family: din-medium, Prompt;
   font-size: 12px;
   margin: 0;
   padding: 30px 0;
@@ -568,7 +580,7 @@ footer .copyright > p {
 
 
 .custom-counter li {
-    font-family: Helvetica;
+    font-family: Helvetica, 'Prompt';
     font-size: 16px;
     line-height: 30px;
 }

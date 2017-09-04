@@ -16,7 +16,7 @@ html * {
 
 body {
   font-size: 100%;
-  font-family: 'DIN-Medium','Prompt', sans-serif;
+  font-family: 'DIN-Light','Prompt', sans-serif;
   color: #3e3947;
   background-color: white;
 }
@@ -62,7 +62,7 @@ Main components
 }
 .cd-section:nth-of-type(odd) p {
   color: #ffffff;
-  font-family: 'DIN-Medium', 'Prompt';
+  font-family: 'DIN-Light', 'Prompt';
 }
 .cd-section:nth-of-type(even) {
   background-color: #003145;
@@ -160,8 +160,8 @@ Main components
 }
 #home.cd-section p{
   color: #ffffff;
-  font-family: 'DIN-Medium', 'Prompt';
-  font-size: 20px;
+  font-family: 'DIN-Light', 'Prompt';
+  font-size: 24px;
   margin: 150px 0 0;
   letter-spacing: 1px;
   line-height: 1.5;
@@ -171,6 +171,7 @@ Main components
 
 .th #home.cd-section p{
   font-size: 24px;
+  font-weight: 300;
 }
 
 #home .TLS_Logo {
@@ -186,15 +187,17 @@ Main components
   min-height: auto;
 }
 
-#about h2{
+#about h2 {
   color: #ffffff;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 30px;
-  margin: 0 0 40px;
+  margin: 0 auto 40px;
+  width: 90%;
 }
 
 .th #about h2{
   font-size: 20px;
+  font-weight: 300;
 }
 
 #about .img-key{
@@ -203,20 +206,22 @@ Main components
 
 #about .img_title p {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 14px;
+  height: 40px;
   line-height: 25px;
-  margin: 50px 0 0;
+  margin: 40px 0 0;
   position: relative;
+  text-transform: uppercase;
   top: 0;
   width: 100%;
 }
 
 #about .img_title .text_subject {
-  font-family: din-medium, Prompt;
-  text-transform:lowercase;
   color: #9e8d67;
-  font-size: 30px;
+  font-family: din-light,Prompt;
+  font-size: 24px;
   text-align: center;
+  text-transform: uppercase;
   width: 100%;
 }
 
@@ -289,8 +294,10 @@ Main components
   transform: translate(0px);
 }
 
-.th #howtoplay .text_campaign p{
+.th #howtoplay .text_campaign p {
+  font-family: Prompt;
   font-size: 18px;
+  font-weight: 300;
 }
 
 #howtoplay .text_campaign .text_hashtag {
@@ -298,17 +305,20 @@ Main components
   font-size: 24px;
   margin: 20px 0;
   text-transform: uppercase;
+  font-family: Din-Medium;
 }
 
 #howtoplay .text_hashtag > span {
   float: left;
   font-size: 20px;
   margin: 10px 0;
+  font-family: Din-Medium, Prompt;
   width: 100%;
 }
 
 #howtoplay .text_campaign.right p {
   font-size: 26px;
+  font-family: Din-Medium, Prompt;
   line-height: 28px;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -354,12 +364,25 @@ Main components
   font-size: 2.5rem;
   height: 60px;
   left: 0;
-  padding: 20px 0;
+  padding: 15px 0 0;
   position: absolute;
   text-align: center;
   text-transform: uppercase;
   vertical-align: middle;
   width: 100%;
+}
+
+#howtoplay .tab_highlight br{
+  display: none;
+}
+
+.th #howtoplay .tab_highlight br{
+  display: none;
+}
+
+
+.th #howtoplay .tab_highlight{
+  font-family: Prompt;
 }
 
 
@@ -568,9 +591,9 @@ footer .rml_logo {
   width: 90px;
 }
 footer .copyright > p {
-  color: #ffffff;
+  color: #a39161;
   float: right;
-  font-family: din-medium, Prompt;
+  font-family: DIN-Light, Prompt;
   font-size: 12px;
   margin: 0;
   padding: 30px 0;
@@ -665,6 +688,7 @@ footer .copyright > p {
 .link_discover:hover, .link_discover:focus{
   color: #ffffff;
   outline: none;
+  text-decoration: none;
 }
 
 .cd-scroll-down {

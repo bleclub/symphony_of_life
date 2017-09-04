@@ -42,6 +42,11 @@
         display: none;
     }
 
+    .TLS_Nav {
+        float: left;
+        width: 85px;
+    }
+
     .lang_bar li{
         font-family: Helvetica;
     }
@@ -66,8 +71,9 @@
         right: 50px;
     }
 
-    .nav_bar{
-        padding:15px 40px;
+    .nav_bar {
+        height: 80px;
+        padding: 10px 40px;
         top: 0;
     }
 
@@ -94,18 +100,26 @@
         font-size: 20px;
         line-height: 28px;
         margin: 0 0 40px;
+        width: 100%;
     }
 
+    
     .th #about h2 {
         font-size: 18px;
     }
 
     #about .img_title p {
         float: left;
-        font-size: 17px;
-        height: 60px;
-        margin: 60px 0 0;
+        font-size: 12px;
+        height: 35px;
+        line-height: 20px;
+        margin: 40px 0 0;
     }
+
+    #about .img_title .text_subject{
+        font-size: 20px;
+    }
+
 
     .th #about .img_title p {
         float: left;
@@ -171,21 +185,22 @@
 
     #about .img_title p {
         float: left;
-        font-size: 14px;
-        height: 50px;
+        font-size: 11px;
+        height: 40px;
         line-height: 18px;
-        margin: 50px 0 0;
+        margin: 40px 0 0;
     }
     #about .img_title .text_subject{
-        font-size: 20px;
+        font-size: 18px;
     }
 
 }
 
+
 @media (max-width: 760px) {
     .nav_bar {
-        height: 90px;
-        padding: 15px 20px;
+        height: 60px;
+        padding: 5px 20px;
         top: 0;
     }
 
@@ -200,7 +215,7 @@
     }
 
     .TLS_Nav{
-        width: 80px;
+        width: 70px;
     }
 
     #home .TLS_Logo, .lang_bar{
@@ -210,17 +225,21 @@
     .nav_bar.navbar-fixed .lang_bar{
         display: inline-block;
         float: right;
-        font-size: 16px;
+        font-size: 14px;
         margin: 26px 50px 0 0;
         position: relative;
         right: 0;
         z-index: 99;
     }
 
+    .touch .cd-nav-trigger {
+        top: 15px;
+    }
+
     .nav_bar .lang_bar {
         display: inline-block;
         float: right;
-        font-size: 16px;
+        font-size: 14px;
         margin: 26px 50px 0 0;
         position: relative;
         right: 0;
@@ -248,7 +267,7 @@
         letter-spacing: 2px;
         line-height: 1.5;
         margin: 120px 0 0;
-        width: 80%;
+        width: 90%;
     }
     
     .th #home.cd-section p {
@@ -276,7 +295,7 @@
 
     #about .img_title p {
         float: left;
-        font-size: 18px;
+        font-size: 16px;
         height: auto;
         line-height: 18px;
         margin: 50px 0 10px;
@@ -290,9 +309,9 @@
     }
 
     #about .img_title .text_subject {
-        font-size: 30px;
-        margin-bottom:20px;
-        font-family: Helvetica;
+        font-family: din-light;
+        font-size: 24px;
+        margin-bottom: 20px;
     }
 
     #about .about_img {
@@ -329,9 +348,13 @@
         line-height: 24px;
     }
 
-    #howtoplay .tab_highlight{
-        height: 90px;
-        padding: 20px;
+    #howtoplay .tab_highlight {
+        font-size: 20px;
+        height: 100px;
+        padding: 25px 20px 0;
+    }
+    #howtoplay .tab_highlight br{
+        display: inline-block;
     }
 
     .th #howtoplay .tab_highlight {
@@ -425,6 +448,11 @@
         letter-spacing: 3px;
         padding: 20px 70px;
     }
+
+    .th #howtoplay .tab_highlight br{
+        display: inline-block;
+    }
+    
 }
 
 @media (max-width: 360px) {
@@ -439,14 +467,31 @@
     .th #home.cd-section p br {
         display: none;
     }
+    #home.cd-section p {
+        font-size: 14px;
+        letter-spacing: 1px;
+        margin: 50px 0 0;
+        width: 90%;
+    }
+    #home.cd-section .kv_text{
+        top: 40%;
+    }
+
 }
 
 @media (max-width: 320px) {
     #home.cd-section p {
         font-size: 14px;
         letter-spacing: 1px;
+        margin: 50px 0 0;
         width: 90%;
     }
+
+    #home.cd-section .kv_text{
+        top: 40%;
+    }
+
+
     .th #home.cd-section p {
         font-size: 17px;
     }
@@ -479,6 +524,7 @@
         letter-spacing: 0;
         padding: 20px 60px;
     }
+
 }
 
 @media (min-width: 560px) and (max-width: 736px) {

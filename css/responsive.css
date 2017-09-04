@@ -148,6 +148,7 @@
 
     #howtoplay .text_campaign .text_hashtag{
         font-size: 22px;
+        font-family: Helvetica;
     }
 
     #howtoplay .text_campaign.right p{
@@ -232,6 +233,15 @@
         z-index: 99;
     }
 
+    #home.cd-section .kv_text{
+        top: 40%;
+    }
+
+    .th #home.cd-section p {
+        font-size: 18px;
+        margin-top: 40px;
+    }
+
     .touch .cd-nav-trigger {
         top: 15px;
     }
@@ -266,7 +276,7 @@
         font-size: 14px;
         letter-spacing: 2px;
         line-height: 1.5;
-        margin: 120px 0 0;
+        margin: 40px 0 0;
         width: 90%;
     }
     

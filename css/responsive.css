@@ -32,6 +32,18 @@
         font-size: 24px;
     }
 
+    .period {
+        color: #9b8d6d;
+        font-family: Din-Medium;
+        font-size: 22px;
+        margin: 0 0 20px;
+        text-transform: uppercase;
+      }
+      
+      .th .period{
+        font-family: Prompt;
+      }
+
 }
 
 
@@ -141,6 +153,15 @@
         font-size: 18px;
         line-height: 26px;
     }
+
+
+    .period {
+        font-size: 20px;
+      }
+      
+      .th .period{
+        font-family: Prompt;
+      }
 
     .th #howtoplay .text_campaign p {
         font-size: 16px;
@@ -340,6 +361,12 @@
     #howtoplay .text_campaign .text_hashtag {
         font-size: 18px;
     }
+
+
+    .period {
+        font-size: 18px;
+      }
+    
 
     #howtoplay .text_hashtag > span{
         font-size: 16px;

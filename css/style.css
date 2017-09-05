@@ -386,6 +386,19 @@ Main components
 }
 
 
+.period {
+  color: #9b8d6d;
+  font-family: Din-Medium;
+  font-size: 26px;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+}
+
+.th .period{
+  font-family: Prompt;
+}
+
+
 .icon_social {
   margin: 0 0px 20px;
 }

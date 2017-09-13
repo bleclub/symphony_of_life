@@ -292,12 +292,16 @@ Main components
   text-align: left;
   top: auto;
   transform: translate(0px);
+  color: #fff;
+  
 }
 
 .th #howtoplay .text_campaign p {
   font-family: Prompt;
   font-size: 18px;
   font-weight: 300;
+  color: #fff;
+  
 }
 
 #howtoplay .text_campaign .text_hashtag {
@@ -318,7 +322,7 @@ Main components
 
 #howtoplay .text_campaign.right p {
   font-size: 26px;
-  font-family: Din-Medium, Prompt;
+  font-family: Din-Light,Prompt;
   line-height: 28px;
   margin-bottom: 20px;
   text-transform: uppercase;

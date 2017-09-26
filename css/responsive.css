@@ -189,6 +189,36 @@
         top: 70px;
         z-index: 102;
     }
+
+    .click_to_website {
+        bottom: -5px;
+        position: fixed;
+        right: 100px;
+        z-index: 9999;
+      }
+      
+      .click_to_website a {
+        background-color: #9d8e68;
+        border-radius: 5px;
+        color: #ffffff;
+        display: inline-block;
+        font-family: din-medium, Prompt;
+        font-size: 13px;
+        height: 40px;
+        padding: 15px 0 0;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 200px;
+        -webkit-transition: 0.8s;
+        -moz-transition: 0.8s;
+        transition: 0.8s;
+      }
+      
+      .click_to_website a:hover {
+        background-color: rgba(157,142,104,0.8);
+      }
+
 }
 
 

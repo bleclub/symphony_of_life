@@ -238,13 +238,13 @@ Main components
   color: #ffffff;
   display: inline-block;
   font-family: din-medium, Prompt;
-  font-size: 13px;
-  height: 40px;
-  padding: 15px 0 0;
+  font-size: 18px;
+  height: 50px;
+  padding: 15px 0;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  width: 200px;
+  width: 250px;
   -webkit-transition: 0.8s;
   -moz-transition: 0.8s;
   transition: 0.8s;

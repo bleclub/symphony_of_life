@@ -29,6 +29,30 @@
 	<link rel="stylesheet" href="./../css/magnific-popup.css" type="text/css" ><!-- instagramElement style -->	
     
 	<script src="../js/modernizr.js"></script> 
+	<style>
+		.mfp-with-zoom .mfp-container,
+		.mfp-with-zoom.mfp-bg {
+		opacity: 0;
+		-webkit-backface-visibility: hidden;
+		/* ideally, transition speed should match zoom duration */
+		-webkit-transition: all 0.3s ease-out;
+		-moz-transition: all 0.3s ease-out;
+		-o-transition: all 0.3s ease-out;
+		transition: all 0.3s ease-out;
+		}
+
+		.mfp-with-zoom.mfp-ready .mfp-container {
+			opacity: 1;
+		}
+		.mfp-with-zoom.mfp-ready.mfp-bg {
+			opacity: 0.8;
+		}
+
+		.mfp-with-zoom.mfp-removing .mfp-container,
+		.mfp-with-zoom.mfp-removing.mfp-bg {
+		opacity: 0;
+		}
+	</style>
 
 	<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -367,6 +391,22 @@
 <script src="../js/scripts.js"></script>
 <script src="../js/main.js"></script> 
 <script>
+
+$(document).ready(function () {
+	$.magnificPopup.open({
+					items: {
+						src: '../images/popup_en.png'
+					},
+					type: 'image',
+					mainClass: 'mfp-with-zoom',
+					removalDelay: 300
+
+				// You may add options here, they're exactly the same as for $.fn.magnificPopup call
+				// Note that some settings that rely on click event (like disableOn or midClick) will not work here
+				}, 0);
+});
+
+	
 		new WOW().init();
 </script>
 <!-- Resource jQuery -->

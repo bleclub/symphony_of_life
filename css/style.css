@@ -609,11 +609,11 @@ footer .rml_logo {
 }
 footer .copyright > p {
   color: #a39161;
-  float: right;
-  font-family: DIN-Light, Prompt;
+  float: left;
+  font-family: DIN-Light,Prompt;
   font-size: 12px;
-  margin: 0;
-  padding: 30px 0;
+  margin: 40px 0 0 20px;
+  padding: 0;
   position: relative;
   text-transform: uppercase;
 }

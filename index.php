@@ -1,1 +1,1 @@
-<?php header("Location: ./symphonyoflife/en/"); ?>
+<?php header("Location: ./en/"); ?>

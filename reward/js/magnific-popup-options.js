@@ -12,7 +12,6 @@ $(document).ready(function() {
 
 	var magnifWinner = function() {
 		$('.winner_popup').magnificPopup({
-			disableOn: 700,
 			type: 'image',
 			mainClass: 'mfp-fade',
 			removalDelay: 160,

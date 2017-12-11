@@ -10,6 +10,16 @@ $(document).ready(function() {
 		});
 	};
 
+	var magnifWinner = function() {
+		$('.winner_popup').magnificPopup({
+			disableOn: 700,
+			type: 'image',
+			mainClass: 'mfp-fade',
+			removalDelay: 160,
+			preloader: false,
+		});
+	};
+
 	
 
 	var magnifVideo = function() {
@@ -27,5 +37,6 @@ $(document).ready(function() {
 	// Call the functions 
 	magnifPopup();
 	magnifVideo();
+	magnifWinner();
 
 });

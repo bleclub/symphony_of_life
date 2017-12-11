@@ -1,4 +1,17 @@
+
+@media (max-width: 1366px) {
+    .photo_winner {
+        margin-top: 50px;
+    }
+
+}
+
+
 @media (min-width: 1280px) and (max-width: 1320px) {
+
+    #home{
+        height: 120vh;
+    }
     #home.cd-section p{
         font-size: 18px;
     }
@@ -54,6 +67,11 @@
         display: none;
     }
 
+    #home.cd-section .kv_text{
+        width: 30%;
+        top: 20%;
+    }
+
     .TLS_Nav {
         float: left;
         width: 85px;
@@ -72,7 +90,7 @@
     }
 
     .lang_bar {
-        margin: 28px 100px 0 0;
+        margin: 28px 40px 0 0;
     }
 
     .nav_bar.navbar-fixed .lang_bar{
@@ -93,7 +111,7 @@
         font-size: 18px;
         letter-spacing: 1px;
         line-height: 1.5;
-        margin: 140px 0 0;
+        margin: 0;
     }
 
     .th #home.cd-section p{
@@ -181,7 +199,7 @@
     }
 
     footer{
-        height: 100px;
+        height: 70px;
         padding: 20px 40px;
     }
     .touch #cd-vertical-nav{
@@ -219,6 +237,17 @@
         background-color: rgba(157,142,104,0.8);
       }
 
+      .photo_winner {
+        margin-top: 150px;
+    }
+
+    footer .rml_logo{
+        width: 60px;
+    }
+    footer .copyright > p{
+        margin: 20px 0 0 20px;
+    }
+
 }
 
 
@@ -246,10 +275,33 @@
         font-size: 18px;
     }
 
+    #home.cd-section .kv_text {
+        width: 50%;
+        top: 20%;
+    }
+
+    .photo_winner {
+        margin-top: 200px;
+    }
+
+    .modal-dialog{
+        width: 600px;
+    }
 }
 
 
 @media (max-width: 760px) {
+
+
+    #home {
+        background-position: right;
+        height: 120vh;
+    }
+
+    .form-wrapper button{
+        width: 90px;
+        font-size: 14px;
+    }
     .nav_bar {
         height: 60px;
         padding: 5px 20px;
@@ -278,14 +330,35 @@
         display: inline-block;
         float: right;
         font-size: 14px;
-        margin: 26px 50px 0 0;
+        margin: 26px 0 0 0;
         position: relative;
         right: 0;
         z-index: 99;
     }
 
-    #home.cd-section .kv_text{
-        top: 40%;
+    #home.cd-section .kv_text {
+        top: 18%;
+        width: 80%;
+    }
+
+    .photo_winner {
+        margin-top: 150px;
+    }
+
+    .text_bottom p span {
+        color: #a39161;
+        font-weight: bold;
+        font-size: 16px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    #home.cd-section p {
+        font-size: 13px;
+        letter-spacing: 1px;
+        line-height: 1.5;
+        margin: 0;
+        width: 90%;
     }
 
     .th #home.cd-section p {
@@ -301,7 +374,7 @@
         display: inline-block;
         float: right;
         font-size: 14px;
-        margin: 26px 50px 0 0;
+        margin: 26px 0 0 0;
         position: relative;
         right: 0;
         z-index: 99;
@@ -327,7 +400,7 @@
         font-size: 14px;
         letter-spacing: 2px;
         line-height: 1.5;
-        margin: 40px 0 0;
+        margin: 0;
         width: 90%;
     }
     
@@ -493,6 +566,10 @@
     }
     .th #home.cd-section p br {
         display: none;
+    }
+
+    .modal-dialog{
+        width: 100%;
     }
 
 }

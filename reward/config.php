@@ -3,8 +3,8 @@ date_default_timezone_set('Asia/Bangkok');
 
 	$db = array(
 		'host' =>       'localhost',
-		'user' =>       'root',
-		'password' =>   'root',
+		'user' =>       'bigfans',
+		'password' =>   'R81Wf}TSC9vH',
 		'name' =>       'redeem_db'
 	);
 

@@ -52,6 +52,49 @@
 		.mfp-with-zoom.mfp-removing.mfp-bg {
 		opacity: 0;
 		}
+
+		
+		#carousel {
+        width:100%;
+        height:300px;
+        position:relative;
+        clear:both;
+        overflow:hidden;
+      }
+      #carousel img {
+        visibility:hidden; /* hide images until carousel can handle them */
+		cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+		width: 300px;
+	  }
+	  
+	  .mfp-title {
+			background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+			color: #ffffff;
+			font-size: 14px;
+			height: 65px;
+			letter-spacing: 1px;
+			line-height: 18px;
+			overflow-wrap: break-word;
+			padding: 20px 5px;
+			position: absolute;
+			text-align: center;
+			text-transform:uppercase;
+			top: -68px;
+			width: 100%;
+		}
+
+		::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+			color: #ffffff;
+		  }
+		  ::-moz-placeholder { /* Firefox 19+ */
+			color: #ffffff;
+		  }
+		  :-ms-input-placeholder { /* IE 10+ */
+			color: #ffffff;
+		  }
+		  :-moz-placeholder { /* Firefox 18- */
+			color: #ffffff;
+		  }
 	</style>
 
 	<script>
@@ -172,8 +215,29 @@
 			<script src="../js/classie.js"></script>
 			<script src="../js/svganimations.js"></script>
 		<h1>Symphony of Life</h1>
+
 		<div class="photo_winner container">
-			<img src="../images/winner_photo.png" class="img-responsive" alt="">
+			<!-- <img src="../images/winner_photo.png" class="img-responsive" alt=""> -->
+			<div id="carousel">
+				<a href="../images/slide/winner_large01.jpg" title="Golfwashere / Kantapat Phutthamkul
+<br>RUNNER UP AWARD Bang & Olufsen value THB 7,890" class="winner_popup"><img src="../images/slide/winner_01.jpg" id="item-1" /></a>
+				<a href="../images/slide/winner_large02.jpg" title="Golfwashere / Kantapat Phutthamkul
+<br>RUNNER UP AWARD Bang & Olufsen value THB 7,890" class="winner_popup"><img src="../images/slide/winner_02.jpg" id="item-2" /></a>
+				<a href="../images/slide/winner_large03.jpg" title="Golfwashere / Kantapat Phutthamkul
+<br>RUNNER UP AWARD Bang & Olufsen value THB 7,890" class="winner_popup"><img src="../images/slide/winner_03.jpg" id="item-3" /></a>
+				<a href="../images/slide/winner_large04.jpg"  title="Golfwashere / Kantapat Phutthamkul
+<br>RUNNER UP AWARD Polaroid Snap Touch value THB 7,890" class="winner_popup"><img src="../images/slide/winner_04.jpg" id="item-4" /></a>
+				<a href="../images/slide/winner_large05.jpg"  title="Golfwashere / Kantapat Phutthamkul
+<br>RUNNER UP AWARD Polaroid Snap Touch value THB 7,890" class="winner_popup"><img src="../images/slide/winner_05.jpg" id="item-5" /></a>
+				<a href="../images/slide/winner_large06.jpg"  title="Golfwashere / Kantapat Phutthamkul
+<br>RUNNER UP AWARD Polaroid Snap Touch value THB 7,890" class="winner_popup"><img src="../images/slide/winner_06.jpg" id="item-6" /></a>
+				<a href="../images/slide/winner_large07.jpg"  title="Golfwashere / Kantapat Phutthamkul
+<br>RUNNER UP AWARD Jo Malone Pomegranate Noir value THB 3,900" class="winner_popup"><img src="../images/slide/winner_07.jpg" id="item-7" /></a>
+				<a href="../images/slide/winner_large08.jpg"  title="Golfwashere / Kantapat Phutthamkul
+<br>RUNNER UP AWARD Jo Malone Pomegranate Noir value THB 3,900" class="winner_popup"><img src="../images/slide/winner_08.jpg" id="item-8" /></a>
+				<a href="../images/slide/winner_large09.jpg"  title="Golfwashere / Kantapat Phutthamkul
+<br>RUNNER UP AWARD Jo Malone Pomegranate Noir value THB 3,900" class="winner_popup"><img src="../images/slide/winner_09.jpg" id="item-9" /></a>
+			</div>
 		</div>
 		<div class="runner_up wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">9 RUNNER UP PRIZES</div>
 		<div class="text_bottom"><p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="2s"><span>CONGRATULATIONS TO ALL WINNERS</span><br>Search by your Instagram/ Facebook account name to see if you are a winner</p></div>
@@ -242,6 +306,48 @@
 <script type="text/javascript" src="./../js/jquery.magnific-popup.min.js"></script>
 <script type="text/javascript" src="./../js/magnific-popup-options.js"></script>
 
+
+<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script> -->
+<script type="text/javascript" src="../js/jquery.waterwheelCarousel.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+	var carousel = $("#carousel").waterwheelCarousel({
+		flankingItems: 3,
+		movingToCenter: function ($item) {
+		$('#callback-output').prepend('movingToCenter: ' + $item.attr('id') + '<br/>');
+		},
+		movedToCenter: function ($item) {
+		$('#callback-output').prepend('movedToCenter: ' + $item.attr('id') + '<br/>');
+		},
+		movingFromCenter: function ($item) {
+		$('#callback-output').prepend('movingFromCenter: ' + $item.attr('id') + '<br/>');
+		},
+		movedFromCenter: function ($item) {
+		$('#callback-output').prepend('movedFromCenter: ' + $item.attr('id') + '<br/>');
+		},
+		clickedCenter: function ($item) {
+		$('#callback-output').prepend('clickedCenter: ' + $item.attr('id') + '<br/>');
+		}
+	});
+
+	$('#prev').bind('click', function () {
+		carousel.prev();
+		return false
+	});
+
+	$('#next').bind('click', function () {
+		carousel.next();
+		return false;
+	});
+
+	$('#reload').bind('click', function () {
+		newOptions = eval("(" + $('#newoptions').val() + ")");
+		carousel.reload(newOptions);
+		return false;
+	});
+
+	});
+</script>
 
 <!-- onscroll animation -->
 <script src="../js/wow.min.js"></script>
@@ -331,6 +437,8 @@
 				});  
 			}); 
 </script>
+
+
 <!-- Resource jQuery -->
 </body>
 </html>

@@ -87,50 +87,6 @@
 </head>
 <body>
 
-	<nav id="cd-vertical-nav">
-		<ul>
-			<li>
-				<a href="#home" data-number="1">
-					<span class="cd-dot"></span>
-					<span class="cd-label">Home</span>
-				</a>
-			</li>
-
-			<li>
-				<a href="#howtoplay" data-number="2">
-					<span class="cd-dot"></span>
-					<span class="cd-label">How to Participate</span>
-				</a>
-			</li>
-
-			<li>
-				<a href="#about" data-number="3">
-					<span class="cd-dot"></span>
-					<span class="cd-label">Story</span>
-				</a>
-			</li>
-			
-			<li>
-				<a href="#live" data-number="4">
-					<span class="cd-dot"></span>
-					<span class="cd-label">Social Live</span>
-				</a>
-			</li>
-			<!-- <li>
-				<a href="#section5" data-number="5">
-					<span class="cd-dot"></span>
-					<span class="cd-label">The Lofts Silom</span>
-				</a>
-			</li> -->
-			<!-- <li>
-				<a href="#section6" data-number="6">
-					<span class="cd-dot"></span>
-					<span class="cd-label">Contact</span>
-				</a>
-			</li> -->
-		</ul>
-	</nav>
-	<a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
 
 	<div class="nav_bar">
 		<div class="TLS_Nav">
@@ -153,14 +109,14 @@
 			</ul>
 	</div>
 
-	<div class="click_to_website wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
+	<!-- <div class="click_to_website wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
 		<a href="http://www.theloftssilom.com/main/">
 			Enter to website
 		</a>
-	</div>
+	</div> -->
 
 	<!-- Home Sectoin -->
-	<section id="home" class="cd-section">
+	<section id="home" class="cd-section js-fullheight-home">
 		<div class="TLS_Logo">
 			<img src="./../images/TLS-Logo.svg" class="img-responsive" alt="The Lofts Silom by Raimon Land">
 		</div>
@@ -216,12 +172,38 @@
 			<script src="../js/classie.js"></script>
 			<script src="../js/svganimations.js"></script>
 		<h1>Symphony of Life</h1>
-		<p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="2s">Sharing Your Beautiful Moments or lifestyles <br>to Win Exciting Prizes</p>
+		<div class="photo_winner container">
+			<img src="../images/winner_photo.png" class="img-responsive" alt="">
+		</div>
+		<div class="runner_up wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">9 RUNNER UP PRIZES</div>
+		<div class="text_bottom"><p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="2s"><span>CONGRATULATIONS TO ALL WINNERS</span><br>Search by your Instagram/ Facebook account name to see if you are a winner</p></div>
 		<span class="discover_more wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
-			<a href="#about" class="link_discover">Discover More</a>
-			<a href="#about" class="cd-scroll-down cd-img-replace">scroll down</a>
+			<div class="js-sticky">
+				<div class="fh5co-main-nav">
+					<div class="container">
+						<div>
+							<div class="fh5co-menu-1">
+								<form class="form-wrapper cf" name="searchform" id="searchform">
+									<input type="text" id="global_filter" class="global_filter" name="user_search" placeholder="ENTER YOUR IG/FB NAME HERE TO SEARCH" required>
+									<button type="button" id="btnSearch">Search</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</span>
 	</section><!-- cd-section -->
+
+	<div id="fh5co-services" class="page_data" data-section="services"> 
+		<div class="container">
+			<div class="loading"><img src="../images/ajax-loader.gif" class="img-responsive"></div>
+			<div id="divResult"></div>
+		</div>
+	</div>
+
+	<!--Redeem Register-->
+	<div id="divRedeem"></div>
 
 
 	<!-- <a href="http://www.theloftssilom.com" target="_blank" title="Click go to The Lofts Silom website"><div id="section5" class="cd-section TLS_Banner"></div></a> -->
@@ -235,7 +217,7 @@
 			<a href="http://www.raimonland.com" target="_blank"><img src="./../images/RML_Logo_White.svg" alt="Raimon Land PCL." class="img-responsive"></a>
 		</div>
 		<div class="copyright">
-			<p>© Copyright 2017 Raimon Land PCL. All rights reserved.</p>
+			<p>© Copyright <?php echo date('Y'); ?> Raimon Land PCL. All rights reserved.</p>
 		</div>
 	</footer>
 	
@@ -267,6 +249,87 @@
 <script src="../js/main.js"></script> 
 <script>	
 		new WOW().init();
+
+		function filterGlobal () {
+			$('#example').DataTable().search(
+				$('.global_filter').val()
+			).draw();
+		}
+		
+		$(function () {
+                $("#btnSearch").click(function () {
+                    $.ajax({
+                        url: "../process.php",
+                        type: "post",
+                        data: {user_search: $("#global_filter").val()},
+                        beforeSend: function () {
+                            $(".loading").show();
+							$('html, body').animate({
+							scrollTop: $('html').offset().top + ($(window).height())
+							}, 500, 'easeInOutExpo');
+                        },
+                        complete: function () {
+                            $(".loading").hide();
+							$(".page_data").show();
+                        },
+                        success: function (data) {
+                            $("#divResult").html(data);
+                        }
+                    });
+                });
+				
+				 $("#btnSearch").click(function () {
+                    $.ajax({
+                        url: "../modal_register.php",
+                        type: "post",
+                        data: {user_search: $("#global_filter").val()},
+                        beforeSend: function () {
+                            $(".loading").show();
+							$('html, body').animate({
+							scrollTop: $('html').offset().top + ($(window).height())
+							}, 500, 'easeInOutExpo');
+                        },
+                        complete: function () {
+                            $(".loading").hide();
+							$(".page_data").show();
+                        },
+                        success: function (data) {
+                            $("#divRedeem").html(data);
+                        }
+                    });
+                });
+				
+				
+				
+                $("#searchform").on("keyup keypress",function(e){
+                   var code = e.keycode || e.which;
+                   if(code==13){
+                       $("#btnSearch").click();
+                       return false;
+                   }
+                });
+            });
+			
+			$(document).ready(function(){  
+				$("#submit").click(function(){   
+				var first_name = $('#first_name').val(); 
+				var last_name = $('#last_name').val(); 
+				var email = $('#email').val(); 
+				var phone = $('#phone').val(); 
+				var prize = $('#prize').val(); 
+				var winner_id = $('#winner_id').val();
+			    $.ajax({  
+						url: "../redeem_data.php",  
+						data: {'first_name':first_name, 'last_name':last_name, 'email':email, 'phone':phone,  'prize':prize,  'winner_id':winner_id},
+						type: 'POST',
+						dataType: 'html',  
+						success: function(data) {  
+							$('#redeem_complete').show().html(data);  
+							$('#form_redeem').hide();
+						}  
+					});  
+				});  
+			}); 
 </script>
 <!-- Resource jQuery -->
 </body>

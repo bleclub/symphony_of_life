@@ -4,8 +4,8 @@ Primary style
 
 -------------------------------- */
 html * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 *, *:after, *:before {
@@ -242,21 +242,23 @@ Main components
 }
 
 .click_to_website {
-  bottom: -5px;
+  /* bottom: -5px;
   position: fixed;
   right: 100px;
-  z-index: 9999;
+  z-index: 9999; */
+  float: right;
+  margin-top: 10px;
 }
 
 .click_to_website a {
   background-color: #9d8e68;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   color: #ffffff;
   display: inline-block;
   font-family: din-medium, Prompt;
   font-size: 18px;
   height: 50px;
-  padding: 15px 0;
+  padding: 20px 0;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -999,6 +1001,7 @@ footer .copyright > p {
   color: #fff;
   padding: 10px 0;
   text-align: center;
+  text-transform:uppercase;
 
 }
 
@@ -1065,19 +1068,19 @@ footer .copyright > p {
 }
 
 .form-wrapper input::-webkit-input-placeholder {
-   color: #000;
+   color: #ffffff;
    font-weight: normal;
    font-style: italic;
 }
 
 .form-wrapper input:-moz-placeholder {
-	color: #000;
+	color: #ffffff;
 	font-weight: normal;
 	font-style: italic;
 }
 
 .form-wrapper input:-ms-input-placeholder {
-	color: #000;
+	color: #ffffff;
 	font-weight: normal;
 	font-style: italic;
 }    

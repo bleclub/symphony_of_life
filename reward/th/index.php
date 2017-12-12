@@ -133,18 +133,18 @@
 		</div>
 		<div class="lang_bar">
 			<ul>
-				<li><a href="#">EN</a></li>
+				<li><a href="../en/">EN</a></li>
 				<li>|</li>
-				<li><a href="../th/">TH</a></li>
+				<li><a href="#">TH</a></li>
 			</ul>
 		</div>
 	</div>
 
 	<div class="lang_bar">
 			<ul>
-				<li><a href="#">EN</a></li>
+				<li><a href="../en/">EN</a></li>
 				<li>|</li>
-				<li><a href="../th/">TH</a></li>
+				<li><a href="#">TH</a></li>
 			</ul>
 	</div>
 

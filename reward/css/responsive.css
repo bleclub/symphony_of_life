@@ -21,6 +21,7 @@
 
 
 @media (min-width: 1280px) and (max-width: 1320px) {
+    
 
     #home{
         height: 120vh;
@@ -73,6 +74,44 @@
       .photo_winner {
         margin-top: 100px;
     }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1279px) {
+    #home .TLS_Logo {
+        width: 100px;
+        margin-top: 0;
+    }
+
+    #home.cd-section h1{
+        font-size: 18px;
+    }
+
+    #home{
+        height: 140vh;
+    }
+
+    #home.cd-section .kv_text{
+        top: 18%;
+    }
+
+    #carousel {
+        height: 210px;
+    }
+    #carousel img{
+        width: 250px;
+    }
+
+    .photo_winner {
+        margin-top: 50px;
+    }
+
+    footer {
+        background-color: #003145;
+        height: 100px;
+        padding: 20px 70px;
+    }
+
 }
 
 

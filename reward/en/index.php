@@ -54,19 +54,6 @@
 		}
 
 		
-		#carousel {
-        width:100%;
-        height:300px;
-        position:relative;
-        clear:both;
-        overflow:hidden;
-      }
-      #carousel img {
-        visibility:hidden; /* hide images until carousel can handle them */
-		cursor:pointer; /* otherwise it's not as obvious items can be clicked */
-		width: 300px;
-	  }
-	  
 	  .mfp-title {
 			background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
 			color: #ffffff;
@@ -90,7 +77,98 @@
 			margin-bottom: 10px;
 		}
 		
+		@media all and (min-width: 800px) {
 
+		/* Give space around main area */
+		.fancybox-custom-layout .fancybox-outer {
+			top: 50px;
+			left: 50px;
+			bottom: 50px;
+			right: 50px;
+			margin: auto;
+			max-width: 1180px;
+			max-height: 495px;
+			overflow: visible;
+			background: #fff;
+			box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+			transition: opacity .3s;
+		}
+
+		/* Make it to fade-out while closing */
+		.fancybox-custom-layout.fancybox-is-closing .fancybox-outer {
+			opacity: 0;
+		}
+
+		/* Set color for background element */
+		.fancybox-custom-layout .fancybox-bg {
+			background: #f6f6f6;
+		}
+
+		.fancybox-custom-layout.fancybox-is-open .fancybox-bg {
+			opacity: 1;
+		}
+
+		/* Move caption area to the right side */
+		.fancybox-custom-layout .fancybox-caption-wrap {
+			top: 0;
+			right: 44px;
+			bottom: 0;
+			left: auto;
+			width: 256px;
+			padding: 0;
+			background: #333;
+			pointer-events: all; /* Make text selectable */
+			border-right: 1px solid rgba(255,255,255,.08);
+		}
+
+		/* Adjust content area position */
+		.fancybox-custom-layout .fancybox-stage {
+			right: 300px;
+		}
+
+		/* Remove top border from the caption */
+		.fancybox-custom-layout .fancybox-caption {
+			padding: 30px 20px;
+			border: 0;
+		}
+
+		/* Align buttons at the right side  */
+		.fancybox-custom-layout .fancybox-toolbar {
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: auto;
+			width: 44px;
+			background: #333;
+			border-left: 1px solid #222;
+		}
+
+		/* Remove background from all buttons */
+		.fancybox-custom-layout .fancybox-button,
+		.fancybox-custom-layout .fancybox-navigation button:before {
+			background: transparent;
+		}
+
+		/* Change arrow color */
+		.fancybox-custom-layout .fancybox-navigation button {
+			color: #333 !important;
+			padding: 10px;
+		}
+
+		/* Reposition arrows */
+		.fancybox-custom-layout .fancybox-button--arrow_left {
+			left: -60px;
+		}
+
+		.fancybox-custom-layout .fancybox-button--arrow_right {
+			right: -60px;
+		}
+
+		.fancybox-custom-layout.fancybox-show-thumbs .fancybox-button--arrow_right {
+			right: -272px;
+		}
+
+		}
 	</style>
 
 	<script>
@@ -156,11 +234,12 @@
 			<img src="./../images/TLS-Logo.svg" class="img-responsive" alt="The Lofts Silom by Raimon Land">
 		</div>
 		<div id="main" class="col-md-6 kv_text">
-				<figure>
-					<div class="drawings">
-						<img src="./../images/TLS_Symphony_of_life.svg" class="illustration" alt="Symphony of life">
+				<img src="./../images/TLS_Symphony_of_life.svg" class="" alt="Symphony of life">
+				<!-- <figure>
+					<div class="drawings"> -->
+						
 						<!-- <img class="illustration" src="img/imac.png" alt="iMac Illustration" /> -->
-						<svg version="1.1" class="line-drawing" width="100%" height="100" id="symphony_logo"  x="0px" y="0px"
+						<!-- <svg version="1.1" class="line-drawing" width="100%" height="100" id="symphony_logo"  x="0px" y="0px"
 						viewBox="0 0 649.3 120"   preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
 						<style type="text/css">
 							.st0{fill:#ffffff;}
@@ -200,37 +279,37 @@
 								l1.6,4.4c-4,2.2-9.1,3.6-13.9,3.6c-13.9,0-20.2-8.6-20.2-20.9C611,46.9,618.2,39.1,629.5,39.1z M640.7,56.6
 								c-0.4-8.2-3.8-12.7-11.1-12.7c-7.2,0-12,4.4-12.8,12.7H640.7z"/>
 						</g>
-						</svg>
-					</div>
-				</figure>
+						</svg> -->
+					<!-- </div>
+				</figure> -->
 
 				<h1>Winner annoucement</h1>
 		</div>
-			<script src="../js/classie.js"></script>
-			<script src="../js/svganimations.js"></script>
+			<!-- <script src="../js/classie.js"></script>
+			<script src="../js/svganimations.js"></script> -->
 		
 
 		<div class="photo_winner container">
 			<!-- <img src="../images/winner_photo.png" class="img-responsive" alt=""> -->
 			<div id="carousel" class="hidden-xs">
 				<a href="../images/slide/winner_large01.jpg" title="Golfwashere / Kantapat Phutthamkul
-<br>RUNNER UP AWARD Bang & Olufsen value THB 7,890" class="winner_popup"><img src="../images/slide/winner_01.jpg" id="item-1" /></a>
+<br>RUNNER UP AWARD Bang & Olufsen<br>Value at THB 7,890" data-fancybox="images" data-type="image"><img src="../images/slide/winner_01.jpg" id="item-1" /></a>
 				<a href="../images/slide/winner_large02.jpg" title="Golfwashere / Kantapat Phutthamkul
-<br>RUNNER UP AWARD Bang & Olufsen value THB 7,890" class="winner_popup"><img src="../images/slide/winner_02.jpg" id="item-2" /></a>
+<br>RUNNER UP AWARD Bang & Olufsen<br>Value at 7,890"  data-fancybox="images" data-type="image"><img src="../images/slide/winner_02.jpg" id="item-2" /></a>
 				<a href="../images/slide/winner_large03.jpg" title="Golfwashere / Kantapat Phutthamkul
-<br>RUNNER UP AWARD Bang & Olufsen value THB 7,890" class="winner_popup"><img src="../images/slide/winner_03.jpg" id="item-3" /></a>
+<br>RUNNER UP AWARD Bang & Olufsen<br>Value at 7,890" data-fancybox="images" data-type="image"><img src="../images/slide/winner_03.jpg" id="item-3" /></a>
 				<a href="../images/slide/winner_large04.jpg"  title="Golfwashere / Kantapat Phutthamkul
-<br>RUNNER UP AWARD Polaroid Snap Touch value THB 7,890" class="winner_popup"><img src="../images/slide/winner_04.jpg" id="item-4" /></a>
+<br>RUNNER UP AWARD Polaroid Snap Touch<br>Value at 7,890" data-fancybox="images" data-type="image"><img src="../images/slide/winner_04.jpg" id="item-4" /></a>
 				<a href="../images/slide/winner_large05.jpg"  title="Golfwashere / Kantapat Phutthamkul
-<br>RUNNER UP AWARD Polaroid Snap Touch value THB 7,890" class="winner_popup"><img src="../images/slide/winner_05.jpg" id="item-5" /></a>
+<br>RUNNER UP AWARD Polaroid Snap Touch<br>Value at 7,890" data-fancybox="images" data-type="image"><img src="../images/slide/winner_05.jpg" id="item-5" /></a>
 				<a href="../images/slide/winner_large06.jpg"  title="Golfwashere / Kantapat Phutthamkul
-<br>RUNNER UP AWARD Polaroid Snap Touch value THB 7,890" class="winner_popup"><img src="../images/slide/winner_06.jpg" id="item-6" /></a>
+<br>RUNNER UP AWARD Polaroid Snap Touch<br>Value at 7,890" data-fancybox="images" data-type="image"><img src="../images/slide/winner_06.jpg" id="item-6" /></a>
 				<a href="../images/slide/winner_large07.jpg"  title="Golfwashere / Kantapat Phutthamkul
-<br>RUNNER UP AWARD Jo Malone Pomegranate Noir value THB 3,900" class="winner_popup"><img src="../images/slide/winner_07.jpg" id="item-7" /></a>
+<br>RUNNER UP AWARD Jo Malone Pomegranate Noir<br>Value at 3,900" data-fancybox="images" data-type="image"><img src="../images/slide/winner_07.jpg" id="item-7" /></a>
 				<a href="../images/slide/winner_large08.jpg"  title="Golfwashere / Kantapat Phutthamkul
-<br>RUNNER UP AWARD Jo Malone Pomegranate Noir value THB 3,900" class="winner_popup"><img src="../images/slide/winner_08.jpg" id="item-8" /></a>
+<br>RUNNER UP AWARD Jo Malone Pomegranate Noir<br>Value at 3,900" data-fancybox="images" data-type="image"><img src="../images/slide/winner_08.jpg" id="item-8" /></a>
 				<a href="../images/slide/winner_large09.jpg"  title="Golfwashere / Kantapat Phutthamkul
-<br>RUNNER UP AWARD Jo Malone Pomegranate Noir value THB 3,900" class="winner_popup"><img src="../images/slide/winner_09.jpg" id="item-9" /></a>
+<br>RUNNER UP AWARD Jo Malone Pomegranate Noir<br>Value at 3,900" data-fancybox="images" data-type="image"><img src="../images/slide/winner_09.jpg" id="item-9" /></a>
 			</div>
 
 			<div id="myCarousel" class="carousel slide carousel_mobile visible-xs" data-ride="carousel">
@@ -241,63 +320,63 @@
 					<div class="item active">
 						<img src="../images/slide/winner_01.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
 						<div class="carousel-caption">
-							<p>Golfwashere / Kantapat Phutthamkul<br>RUNNER UP AWARD Bang & Olufsen<BR>value THB 7,890</p>
+							<p>Golfwashere / Kantapat Phutthamkul<br>RUNNER UP AWARD Bang & Olufsen<br>Value at 7,890</p>
 						</div>
 					</div>
 
 					<div class="item">
 						<img src="../images/slide/winner_02.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
 						<div class="carousel-caption">
-							<p>Golfwashere / Kantapat Phutthamkul<br>RUNNER UP AWARD Bang & Olufsen<BR>value THB 7,890</p>
+							<p>Golfwashere / Kantapat Phutthamkul<br>RUNNER UP AWARD Bang & Olufsen<br>Value at 7,890</p>
 						</div>
 					</div>
 					
 					<div class="item">
 						<img src="../images/slide/winner_03.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
 						<div class="carousel-caption">
-							<p>Golfwashere / Kantapat Phutthamkul<br>RUNNER UP AWARD Bang & Olufsen<BR>value THB 7,890</p>
+							<p>Golfwashere / Kantapat Phutthamkul<br>RUNNER UP AWARD Bang & Olufsen<br>Value at 7,890</p>
 						</div>
 					</div>
 
 					<div class="item">
 						<img src="../images/slide/winner_04.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
 						<div class="carousel-caption">
-							<p>Golfwashere / Kantapat Phutthamkul<br>Polaroid Snap Touch<BR>value THB 7,890</p>
+							<p>Golfwashere / Kantapat Phutthamkul<br>Polaroid Snap Touch<br>Value at 7,890</p>
 						</div>
 					</div>
 
 					<div class="item">
 						<img src="../images/slide/winner_05.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
 						<div class="carousel-caption">
-							<p>Golfwashere / Kantapat Phutthamkul<br>Polaroid Snap Touch<BR>value THB 7,890</p>
+							<p>Golfwashere / Kantapat Phutthamkul<br>Polaroid Snap Touch<br>Value at7,890</p>
 						</div>
 					</div>
 
 					<div class="item">
 						<img src="../images/slide/winner_06.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
 						<div class="carousel-caption">
-							<p>Golfwashere / Kantapat Phutthamkul<br>Polaroid Snap Touch<BR>value THB 7,890</p>
+							<p>Golfwashere / Kantapat Phutthamkul<br>Polaroid Snap Touch<br>Value at 7,890</p>
 						</div>
 					</div>
 
 					<div class="item">
 						<img src="../images/slide/winner_07.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
 						<div class="carousel-caption">
-							<p>Golfwashere / Kantapat Phutthamkul<br>Jo Malone Pomegranate Noir<BR>value THB 3,900</p>
+							<p>Golfwashere / Kantapat Phutthamkul<br>Jo Malone Pomegranate Noir<br>Value at 3,900</p>
 						</div>
 					</div>
 
 					<div class="item">
 						<img src="../images/slide/winner_08.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
 						<div class="carousel-caption">
-							<p>Golfwashere / Kantapat Phutthamkul<br>Jo Malone Pomegranate Noir<BR>value THB 3,900</p>
+							<p>Golfwashere / Kantapat Phutthamkul<br>Jo Malone Pomegranate Noir<br>Value at 3,900</p>
 						</div>
 					</div>
 
 					<div class="item">
 						<img src="../images/slide/winner_09.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
 						<div class="carousel-caption">
-							<p>Golfwashere / Kantapat Phutthamkul<br>Jo Malone Pomegranate Noir<BR>value THB 3,900</p>
+							<p>Golfwashere / Kantapat Phutthamkul<br>Jo Malone Pomegranate Noir<br>Value at 3,900</p>
 						</div>
 					</div>
 
@@ -435,6 +514,39 @@
 <script src="../js/wow.min.js"></script>
 <script src="../js/scripts.js"></script>
 <script src="../js/main.js"></script> 
+<script>
+
+$('[data-fancybox="images"]').fancybox({
+  idleTime  : false,
+  baseClass : 'fancybox-custom-layout',
+  margin    : 0,
+  gutter    : 0,
+  infobar   : false,
+  thumbs    : {
+    hideOnClose : false,
+    parentEl    : '.fancybox-outer'
+  },
+  touch : {
+    vertical : false
+  },
+  buttons : [
+    'close',
+    'thumbs',
+    'share'
+  ],
+  animationEffect   : "fade",
+  animationDuration : 300,
+  onInit : function( instance ) {
+    // Create new wrapping element, it is useful for styling
+    // and makes easier to position thumbnails
+    instance.$refs.inner.wrap( '<div class="fancybox-outer"></div>' );
+  },
+  caption : function(instance, item) {
+    return '<h3>Collection #162 – <br /> The Histographer</h3><p>This collection of photos, curated by The Histographer, is a collection around the concept of \'Autumn is here\'.</p><p><a href="https://unsplash.com/collections/curated/162" target="_blank">unsplash.com</a></p>';
+  }
+});
+//# sourceURL=pen.js
+</script>
 <script>	
 		new WOW().init();
 

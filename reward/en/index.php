@@ -122,7 +122,7 @@
 	<meta name="msapplication-TileImage" content="./../images/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
   	
-	<title>Symphony of Life by The Lofts Silom - Search by your Instagram / Facebook account to see if you win a prize.</title>
+	<title>Winner annoucement Symphony of Life by The Lofts Silom - Search by your Instagram / Facebook account to see if you win a prize.</title>
 </head>
 <body>
 
@@ -203,10 +203,12 @@
 						</svg>
 					</div>
 				</figure>
+
+				<h1>Winner annoucement</h1>
 		</div>
 			<script src="../js/classie.js"></script>
 			<script src="../js/svganimations.js"></script>
-		<h1>Symphony of Life by The Lofts Silom</h1>
+		
 
 		<div class="photo_winner container">
 			<!-- <img src="../images/winner_photo.png" class="img-responsive" alt=""> -->
@@ -314,7 +316,7 @@
 
 		</div>
 		<div class="runner_up wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">9 Top Prizes</div>
-		<div class="text_bottom"><p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="2s"><span>Winner Annoucement</span><br>Search by your Instagram / Facebook account to see if you win a prize.</p></div>
+		<div class="text_bottom"><p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="2s"><span>Thank you for your participation</span><br>Search by your Instagram / Facebook account to see if you win a prize.</p></div>
 		<span class="discover_more wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
 			<div class="js-sticky">
 				<div class="fh5co-main-nav">

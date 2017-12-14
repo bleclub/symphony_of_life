@@ -292,24 +292,33 @@
 		<div class="photo_winner container">
 			<!-- <img src="../images/winner_photo.png" class="img-responsive" alt=""> -->
 			<div id="carousel" class="hidden-xs">
-				<a href="../images/slide/winner_large01.jpg" title="Golfwashere / Kantapat Phutthamkul
-<br>RUNNER UP AWARD Bang & Olufsen<br>Value at THB 7,890" data-fancybox="images" data-type="image"><img src="../images/slide/winner_01.jpg" id="item-1" /></a>
-				<a href="../images/slide/winner_large02.jpg" title="Golfwashere / Kantapat Phutthamkul
-<br>RUNNER UP AWARD Bang & Olufsen<br>Value at 7,890"  data-fancybox="images" data-type="image"><img src="../images/slide/winner_02.jpg" id="item-2" /></a>
-				<a href="../images/slide/winner_large03.jpg" title="Golfwashere / Kantapat Phutthamkul
-<br>RUNNER UP AWARD Bang & Olufsen<br>Value at 7,890" data-fancybox="images" data-type="image"><img src="../images/slide/winner_03.jpg" id="item-3" /></a>
-				<a href="../images/slide/winner_large04.jpg"  title="Golfwashere / Kantapat Phutthamkul
-<br>RUNNER UP AWARD Polaroid Snap Touch<br>Value at 7,890" data-fancybox="images" data-type="image"><img src="../images/slide/winner_04.jpg" id="item-4" /></a>
-				<a href="../images/slide/winner_large05.jpg"  title="Golfwashere / Kantapat Phutthamkul
-<br>RUNNER UP AWARD Polaroid Snap Touch<br>Value at 7,890" data-fancybox="images" data-type="image"><img src="../images/slide/winner_05.jpg" id="item-5" /></a>
-				<a href="../images/slide/winner_large06.jpg"  title="Golfwashere / Kantapat Phutthamkul
-<br>RUNNER UP AWARD Polaroid Snap Touch<br>Value at 7,890" data-fancybox="images" data-type="image"><img src="../images/slide/winner_06.jpg" id="item-6" /></a>
-				<a href="../images/slide/winner_large07.jpg"  title="Golfwashere / Kantapat Phutthamkul
-<br>RUNNER UP AWARD Jo Malone Pomegranate Noir<br>Value at 3,900" data-fancybox="images" data-type="image"><img src="../images/slide/winner_07.jpg" id="item-7" /></a>
-				<a href="../images/slide/winner_large08.jpg"  title="Golfwashere / Kantapat Phutthamkul
-<br>RUNNER UP AWARD Jo Malone Pomegranate Noir<br>Value at 3,900" data-fancybox="images" data-type="image"><img src="../images/slide/winner_08.jpg" id="item-8" /></a>
-				<a href="../images/slide/winner_large09.jpg"  title="Golfwashere / Kantapat Phutthamkul
-<br>RUNNER UP AWARD Jo Malone Pomegranate Noir<br>Value at 3,900" data-fancybox="images" data-type="image"><img src="../images/slide/winner_09.jpg" id="item-9" /></a>
+				<a href="../images/slide/winner_large01.jpg" title="" data-fancybox="images" data-type="image"  data-caption="<span class='username-ui'>Name: Happy Fish, Healthy Fit◡̈ <br>Award: 1st prize <br>Prize: Bang & Olufsen<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BY2ZMDiDR6n/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW PHOTO</a>">
+					<img src="../images/slide/winner_01.jpg" id="item-1" />
+				</a>
+				<a href="../images/slide/winner_large02.jpg" title=""  data-fancybox="images" data-type="image" data-caption="<span class='username-ui'>Name: Happy Fish, Healthy Fit◡̈ <br>Award: 1st prize <br>Prize: Bang & Olufsen<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BY2ZMDiDR6n/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW PHOTO</a>">
+					<img src="../images/slide/winner_02.jpg" id="item-2" />
+				</a>
+				<a href="../images/slide/winner_large03.jpg" title="" data-fancybox="images" data-type="image" data-caption="<span class='username-ui'>Name: Happy Fish, Healthy Fit◡̈ <br>Award: 1st prize <br>Prize: Bang & Olufsen<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BY2ZMDiDR6n/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW PHOTO</a>">
+					<img src="../images/slide/winner_03.jpg" id="item-3" /
+				</a>
+				<a href="../images/slide/winner_large04.jpg"  title="" data-fancybox="images" data-type="image" data-caption="<span class='username-ui'>Name: Happy Fish, Healthy Fit◡̈ <br>Award: 2nd prize <br>Prize: Polaroid Snap Touch<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BY2ZMDiDR6n/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW PHOTO</a>">
+					<img src="../images/slide/winner_04.jpg" id="item-4" />
+				</a>
+				<a href="../images/slide/winner_large05.jpg"  title="" data-fancybox="images" data-type="image" data-caption="<span class='username-ui'>Name: Happy Fish, Healthy Fit◡̈ <br>Award: 2nd prize <br>Prize: Polaroid Snap Touch<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BY2ZMDiDR6n/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW PHOTO</a>">
+					<img src="../images/slide/winner_05.jpg" id="item-5" />
+				</a>
+				<a href="../images/slide/winner_large06.jpg"  title="" data-fancybox="images" data-type="image" data-caption="<span class='username-ui'>Name: Happy Fish, Healthy Fit◡̈ <br>Award: 2nd prize <br>Prize: Polaroid Snap Touch<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BY2ZMDiDR6n/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW PHOTO</a>">
+					<img src="../images/slide/winner_06.jpg" id="item-6" />
+				</a>
+				<a href="../images/slide/winner_large07.jpg"  title="" data-fancybox="images" data-type="image" data-caption="<span class='username-ui'>Name: Happy Fish, Healthy Fit◡̈ <br>Award: 3rd prize <br>Prize: Jo Malone Pomegranate Noir<br>Value at THB 3,900</span><br /><br><span class='comments-ui'>Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BY2ZMDiDR6n/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW PHOTO</a>">
+					<img src="../images/slide/winner_07.jpg" id="item-7" />
+				</a>
+				<a href="../images/slide/winner_large08.jpg"  title="" data-fancybox="images" data-type="image" data-caption="<span class='username-ui'>Name: Happy Fish, Healthy Fit◡̈ <br>Award: 3rd prize <br>Prize: Jo Malone Pomegranate Noir<br>Value at THB 3,900</span><br /><br><span class='comments-ui'>Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BY2ZMDiDR6n/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW PHOTO</a>">
+					<img src="../images/slide/winner_08.jpg" id="item-8" />
+				</a>
+				<a href="../images/slide/winner_large09.jpg"  title="" data-fancybox="images" data-type="image" data-caption="<span class='username-ui'>Name: Happy Fish, Healthy Fit◡̈ <br>Award: 3rd prize <br>Prize: Jo Malone Pomegranate Noir<br>Value at THB 3,900</span><br /><br><span class='comments-ui'>Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BY2ZMDiDR6n/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW PHOTO</a>">
+					<img src="../images/slide/winner_09.jpg" id="item-9" />
+				</a>
 			</div>
 
 			<div id="myCarousel" class="carousel slide carousel_mobile visible-xs" data-ride="carousel">
@@ -318,66 +327,84 @@
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner">
 					<div class="item active">
-						<img src="../images/slide/winner_01.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
-						<div class="carousel-caption">
-							<p>Golfwashere / Kantapat Phutthamkul<br>RUNNER UP AWARD Bang & Olufsen<br>Value at 7,890</p>
-						</div>
+						<a href="../images/slide/winner_large01.jpg" title="" data-fancybox="group" data-type="image"  data-caption="<span class='username-ui'>Name: Happy Fish, Healthy Fit◡̈ <br>Award: 1st prize <br>Prize: Bang & Olufsen<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BY2ZMDiDR6n/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW PHOTO</a>">
+							<img src="../images/slide/winner_01.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
+							<div class="carousel-caption">
+								<p>Golfwashere / Kantapat Phutthamkul<br>RUNNER UP AWARD Bang & Olufsen<br>Value at 7,890</p>
+							</div>
+						</a>
 					</div>
 
 					<div class="item">
-						<img src="../images/slide/winner_02.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
-						<div class="carousel-caption">
-							<p>Golfwashere / Kantapat Phutthamkul<br>RUNNER UP AWARD Bang & Olufsen<br>Value at 7,890</p>
-						</div>
+						<a href="../images/slide/winner_large02.jpg" title="" data-fancybox="group" data-type="image"  data-caption="<span class='username-ui'>Name: Happy Fish, Healthy Fit◡̈ <br>Award: 1st prize <br>Prize: Bang & Olufsen<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BY2ZMDiDR6n/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW PHOTO</a>">
+							<img src="../images/slide/winner_02.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
+							<div class="carousel-caption">
+								<p>Golfwashere / Kantapat Phutthamkul<br>RUNNER UP AWARD Bang & Olufsen<br>Value at 7,890</p>
+							</div>
+						</a>
 					</div>
 					
 					<div class="item">
-						<img src="../images/slide/winner_03.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
-						<div class="carousel-caption">
-							<p>Golfwashere / Kantapat Phutthamkul<br>RUNNER UP AWARD Bang & Olufsen<br>Value at 7,890</p>
-						</div>
+						<a href="../images/slide/winner_large03.jpg" title="" data-fancybox="groupgroup" data-type="image"  data-caption="<span class='username-ui'>Name: Happy Fish, Healthy Fit◡̈ <br>Award: 1st prize <br>Prize: Bang & Olufsen<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BY2ZMDiDR6n/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW PHOTO</a>">
+							<img src="../images/slide/winner_03.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
+							<div class="carousel-caption">
+								<p>Golfwashere / Kantapat Phutthamkul<br>RUNNER UP AWARD Bang & Olufsen<br>Value at 7,890</p>
+							</div>
+						</a>
 					</div>
 
 					<div class="item">
-						<img src="../images/slide/winner_04.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
-						<div class="carousel-caption">
-							<p>Golfwashere / Kantapat Phutthamkul<br>Polaroid Snap Touch<br>Value at 7,890</p>
-						</div>
+						<a href="../images/slide/winner_large04.jpg"  title="" data-fancybox="group" data-type="image" data-caption="<span class='username-ui'>Name: Happy Fish, Healthy Fit◡̈ <br>Award: 2nd prize <br>Prize: Polaroid Snap Touch<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BY2ZMDiDR6n/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW PHOTO</a>">
+							<img src="../images/slide/winner_04.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
+							<div class="carousel-caption">
+								<p>Golfwashere / Kantapat Phutthamkul<br>Polaroid Snap Touch<br>Value at 7,890</p>
+							</div>
+						</a>
 					</div>
 
 					<div class="item">
-						<img src="../images/slide/winner_05.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
-						<div class="carousel-caption">
-							<p>Golfwashere / Kantapat Phutthamkul<br>Polaroid Snap Touch<br>Value at7,890</p>
-						</div>
+						<a href="../images/slide/winner_large05.jpg"  title="" data-fancybox="group" data-type="image" data-caption="<span class='username-ui'>Name: Happy Fish, Healthy Fit◡̈ <br>Award: 2nd prize <br>Prize: Polaroid Snap Touch<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BY2ZMDiDR6n/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW PHOTO</a>">
+							<img src="../images/slide/winner_05.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
+							<div class="carousel-caption">
+								<p>Golfwashere / Kantapat Phutthamkul<br>Polaroid Snap Touch<br>Value at7,890</p>
+							</div>
+						</a>
 					</div>
 
 					<div class="item">
-						<img src="../images/slide/winner_06.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
-						<div class="carousel-caption">
-							<p>Golfwashere / Kantapat Phutthamkul<br>Polaroid Snap Touch<br>Value at 7,890</p>
-						</div>
+						<a href="../images/slide/winner_large06.jpg"  title="" data-fancybox="group" data-type="image" data-caption="<span class='username-ui'>Name: Happy Fish, Healthy Fit◡̈ <br>Award: 2nd prize <br>Prize: Polaroid Snap Touch<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BY2ZMDiDR6n/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW PHOTO</a>">
+							<img src="../images/slide/winner_06.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
+							<div class="carousel-caption">
+								<p>Golfwashere / Kantapat Phutthamkul<br>Polaroid Snap Touch<br>Value at 7,890</p>
+							</div>
+						</a>
 					</div>
 
 					<div class="item">
-						<img src="../images/slide/winner_07.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
-						<div class="carousel-caption">
-							<p>Golfwashere / Kantapat Phutthamkul<br>Jo Malone Pomegranate Noir<br>Value at 3,900</p>
-						</div>
+						<a href="../images/slide/winner_large07.jpg"  title="" data-fancybox="group" data-type="image" data-caption="<span class='username-ui'>Name: Happy Fish, Healthy Fit◡̈ <br>Award: 3rd prize <br>Prize: Jo Malone Pomegranate Noir<br>Value at THB 3,900</span><br /><br><span class='comments-ui'>Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BY2ZMDiDR6n/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW PHOTO</a>">
+							<img src="../images/slide/winner_07.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
+							<div class="carousel-caption">
+								<p>Golfwashere / Kantapat Phutthamkul<br>Jo Malone Pomegranate Noir<br>Value at 3,900</p>
+							</div>
+						</a>
 					</div>
 
 					<div class="item">
-						<img src="../images/slide/winner_08.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
-						<div class="carousel-caption">
-							<p>Golfwashere / Kantapat Phutthamkul<br>Jo Malone Pomegranate Noir<br>Value at 3,900</p>
-						</div>
+						<a href="../images/slide/winner_large08.jpg"  title="" data-fancybox="group" data-type="image" data-caption="<span class='username-ui'>Name: Happy Fish, Healthy Fit◡̈ <br>Award: 3rd prize <br>Prize: Jo Malone Pomegranate Noir<br>Value at THB 3,900</span><br /><br><span class='comments-ui'>Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BY2ZMDiDR6n/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW PHOTO</a>">
+							<img src="../images/slide/winner_08.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
+							<div class="carousel-caption">
+								<p>Golfwashere / Kantapat Phutthamkul<br>Jo Malone Pomegranate Noir<br>Value at 3,900</p>
+							</div>
+						</a>
 					</div>
 
 					<div class="item">
-						<img src="../images/slide/winner_09.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
-						<div class="carousel-caption">
-							<p>Golfwashere / Kantapat Phutthamkul<br>Jo Malone Pomegranate Noir<br>Value at 3,900</p>
-						</div>
+						<a href="../images/slide/winner_large09.jpg"  title="" data-fancybox="group" data-type="image" data-caption="<span class='username-ui'>Name: Happy Fish, Healthy Fit◡̈ <br>Award: 3rd prize <br>Prize: Jo Malone Pomegranate Noir<br>Value at THB 3,900</span><br /><br><span class='comments-ui'>Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. Life is inspiring when seeing good sights. #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BY2ZMDiDR6n/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW PHOTO</a>">
+							<img src="../images/slide/winner_09.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
+							<div class="carousel-caption">
+								<p>Golfwashere / Kantapat Phutthamkul<br>Jo Malone Pomegranate Noir<br>Value at 3,900</p>
+							</div>
+						</a>
 					</div>
 
 				</div>
@@ -515,37 +542,7 @@
 <script src="../js/scripts.js"></script>
 <script src="../js/main.js"></script> 
 <script>
-
-$('[data-fancybox="images"]').fancybox({
-  idleTime  : false,
-  baseClass : 'fancybox-custom-layout',
-  margin    : 0,
-  gutter    : 0,
-  infobar   : false,
-  thumbs    : {
-    hideOnClose : false,
-    parentEl    : '.fancybox-outer'
-  },
-  touch : {
-    vertical : false
-  },
-  buttons : [
-    'close',
-    'thumbs',
-    'share'
-  ],
-  animationEffect   : "fade",
-  animationDuration : 300,
-  onInit : function( instance ) {
-    // Create new wrapping element, it is useful for styling
-    // and makes easier to position thumbnails
-    instance.$refs.inner.wrap( '<div class="fancybox-outer"></div>' );
-  },
-  caption : function(instance, item) {
-    return '<h3>Collection #162 – <br /> The Histographer</h3><p>This collection of photos, curated by The Histographer, is a collection around the concept of \'Autumn is here\'.</p><p><a href="https://unsplash.com/collections/curated/162" target="_blank">unsplash.com</a></p>';
-  }
-});
-//# sourceURL=pen.js
+	
 </script>
 <script>	
 		new WOW().init();

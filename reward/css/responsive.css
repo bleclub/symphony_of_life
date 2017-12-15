@@ -85,6 +85,7 @@
 
     #home.cd-section h1{
         font-size: 18px;
+        display: none;
     }
 
     #home{
@@ -103,7 +104,7 @@
     }
 
     .photo_winner {
-        margin-top: 50px;
+        margin-top: 80px;
     }
 
     footer {

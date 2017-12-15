@@ -1,3 +1,29 @@
+@media (min-width: 1520px) and (max-width: 1600px) {
+    #home .TLS_Logo {
+        width: 120px;
+        margin: 0px auto 0;
+    }
+    #home.cd-section .kv_text{
+        top:20%;
+    }
+    #carousel{
+        height: 280px;
+    }
+
+    .photo_winner {
+    
+        margin-top: 100px;
+    
+    }
+
+    #home.cd-section h1 {
+        opacity: 1;
+        margin: 50px 0 0 0;
+        font-size: 22px;
+    }
+
+}
+
 
 @media (max-width: 1366px) {
     .photo_winner {
@@ -718,6 +744,9 @@
 }
 
 @media (max-width: 360px) {
+    #home{
+        height: 160vh;
+    }
 
     .th #howtoplay .tab_highlight{
         letter-spacing: 1px;
@@ -742,6 +771,10 @@
     #myCarousel .carousel-caption p{
         font-size: 10px;
         margin: 0;
+    }
+
+    #home.cd-section h1{
+        font-size: 20px;
     }
 
 }

@@ -23,7 +23,7 @@
         //  echo "Username already exists!";  
 			echo ("<SCRIPT LANGUAGE='JavaScript'>
 					window.alert('This user has redeemed already!')
-					window.location.href='http://".$_SERVER['SERVER_NAME']."/reward/';
+					window.location.href='http://".$_SERVER['SERVER_NAME']."/';
 					</SCRIPT>");
 	}  
     else  
@@ -50,7 +50,7 @@
 				$flgSend = @mail($strTo,$strSubject,$strMessage,$strHeader);  // @ = No Show Error //
 				if($flgSend)
 				{
-					header("Location: http://".$_SERVER['SERVER_NAME']."/reward/thankyou");
+					header("Location: http://".$_SERVER['SERVER_NAME']."/");
 				}
 		}
           

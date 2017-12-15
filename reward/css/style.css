@@ -138,6 +138,7 @@ Main components
   background-image: url('../images/bg_redeem.jpg');
   background-size: cover;
   background-position: center;
+  height: 100vh;
 }
 
 #home.cd-section .kv_text {
@@ -261,7 +262,7 @@ Main components
   font-family: din-medium, Prompt;
   font-size: 18px;
   height: 50px;
-  padding: 20px 0;
+  padding: 20px 0 0;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;

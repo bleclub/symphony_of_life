@@ -30,6 +30,9 @@
     
 	<script src="../js/modernizr.js"></script> 
 	<style>
+        #home{
+            height:100vh;
+        }
 		.mfp-with-zoom .mfp-container,
 		.mfp-with-zoom.mfp-bg {
 		opacity: 0;
@@ -75,9 +78,20 @@
 		.h1, .h2, .h3, h1, h2, h3 {
 			margin-top: 20px;
 			margin-bottom: 10px;
-		}
+        }
+        
+        .text_bottom {
+            position: relative;
+            width: 100%;
+            text-align: center;
+            margin-top: 0;
+            top: 50%;
+            transform: translate(0,-50%);
+        }
 		
 		@media all and (min-width: 800px) {
+
+            
 
 		/* Give space around main area */
 		.fancybox-custom-layout .fancybox-outer {
@@ -168,7 +182,27 @@
 			right: -272px;
 		}
 
-		}
+        }
+
+        @media (max-width: 760px) {
+        .text_bottom{
+            top:40%;
+        }
+        
+        .runner_up{
+            font-size:16px;
+        }
+        }
+
+        @media (max-width: 320px) {
+        .text_bottom{
+            top:40%;
+        }
+        
+        .runner_up{
+            font-size:14px;
+        }
+        }
 	</style>
 
 	<script>
@@ -283,157 +317,17 @@
 					<!-- </div>
 				</figure> -->
 
-				<h1>Winner annoucement</h1>
 		</div>
 			<!-- <script src="../js/classie.js"></script>
 			<script src="../js/svganimations.js"></script> -->
 		
 
-		<div class="photo_winner container">
-			<!-- <img src="../images/winner_photo.png" class="img-responsive" alt=""> -->
-			<div id="carousel" class="hidden-xs">
-				
-				<a href="../images/slide/winner_large02.jpg" title=""  data-fancybox="images" data-type="image" data-caption="<span class='username-ui'>Account Name: mimipatthawan <br>Award: 1st prize <br>Prize: Bang & Olufsen<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>ความสุขของการเดินทางคือเพื่อนรวมทาง #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BZaGJ5XDDfo/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW ORIGINAL POST</a>">
-					<img src="../images/slide/winner_02.jpg" id="item-1" />
-                </a>
-                
-                <a href="../images/slide/winner_large01.jpg" title="" data-fancybox="images" data-type="image"  data-caption="<span class='username-ui'>Account Name: Sastrawut Phonin <br>Award: 1st prize <br>Prize: Bang & Olufsen<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>ว่ายน้ำกับครอบครัวท่ามกลางบรรยากาศที่แสนวิเศษ แสงแดดยามเย็น ลมพัดอ่อนๆ และวิวที่งดงาม นี่คือ Symphony of Life #symphonyoflife #theloftssilom #raimonland</span><br><br><a target='_blank' class='link-ui' href='https://www.facebook.com/photo.php?fbid=10214079980612340&set=p.10214079980612340&type=3&theater' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW ORIGINAL POST</a>">
-					<img src="../images/slide/winner_01.jpg" id="item-2" />
-				</a>
-				<a href="../images/slide/winner_large03.jpg" title="" data-fancybox="images" data-type="image" data-caption="<span class='username-ui'>Account Name: Pattanagorn Adirekkiat <br>Award: 1st prize <br>Prize: Bang & Olufsen<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>ฝนตกๆ บรรยากาศเหงาๆ ฟังเพลงคลอๆกับความอ้างว้างกันมั้ย? เดี๋ยวเราเล่นให้ฟังเอง :) Camera Man : Tanaporn Choopanya #symphonyoflife #theloftssilom #raimonland</span><br><br><a target='_blank' class='link-ui' href='https://www.facebook.com/Pattanagorn/posts/10155683767148664' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW ORIGINAL POST</a>">
-					<img src="../images/slide/winner_03.jpg" id="item-3" />
-				</a>
-
-
-				<a href="../images/slide/winner_large04.jpg"  title="" data-fancybox="images" data-type="image" data-caption="<span class='username-ui'>Account Name: Jakkrit Charoenporn <br>Award: 2nd prize <br>Prize: Polaroid Snap Touch<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>Symphony of life คือการสัมผัสถึงธรรมชาติรอบตัวเรา มองเห็นทัศนียภาพที่งดงาม เสียงร้องของนกที่ไพเราะ ไออุ่นจากแสงตะวันรุ่งอรุณ อากาศที่บริสุทธิ์ปลอดโปร่ง ล้วนสร้างอารมณ์ให้สุนทรีย์ #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.facebook.com/permalink.php?story_fbid=1966433990239415&id=100006184988437' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW ORIGINAL POST</a>">
-					<img src="../images/slide/winner_04.jpg" id="item-4" />
-				</a>
-				
-				<a href="../images/slide/winner_large05.jpg"  title="" data-fancybox="images" data-type="image" data-caption="<span class='username-ui'>Account Name: mr.thanawit <br>Award: 2nd prize <br>Prize: Polaroid Snap Touch<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>Free like a bird ... #free #befree #freedom #bird #wing #songbird #fly #flyaway #songbird #symphonyoflife #theloftssilom #raimonland #therivercondominium</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BZivb5yh6yd/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW ORIGINAL POST</a>">
-					<img src="../images/slide/winner_05.jpg" id="item-5" />
-				</a>
-
-				<a href="../images/slide/winner_large06.jpg"  title="" data-fancybox="images" data-type="image" data-caption="<span class='username-ui'>Account Name: Cholly Wachananont <br>Award: 2nd prize <br>Prize: Polaroid Snap Touch<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>If a musician needs all the keys to play symphony. I, as a human being, need a beautiful place to live life. The loft Silom so is the symphony of my life. #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.facebook.com/cholly.wachananont/posts/10155831089554906' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW ORIGINAL POST</a>">
-					<img src="../images/slide/winner_06.jpg" id="item-6" />
-				</a>
-
-				
-				<a href="../images/slide/winner_large07.jpg"  title="" data-fancybox="images" data-type="image" data-caption="<span class='username-ui'>Account Name: nsjournals <br>Award: 3rd prize <br>Prize: Jo Malone Pomegranate Noir<br>Value at THB 3,900</span><br /><br><span class='comments-ui'>Sights • Sounds • Scents • Tastes • Touches #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BZpwYz3FkFH/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW ORIGINAL POST</a>">
-					<img src="../images/slide/winner_07.jpg" id="item-7" />
-				</a>
-				<a href="../images/slide/winner_large08.jpg"  title="" data-fancybox="images" data-type="image" data-caption="<span class='username-ui'>Account Name: kanapuii <br>Award: 3rd prize <br>Prize: Jo Malone Pomegranate Noir<br>Value at THB 3,900</span><br /><br><span class='comments-ui'>ถึงแม้จะมีสิ่งก่อสร้างที่มาจาก น้ำมือมนุษย์มากมาย...ธรรมชาติก็มักจะมีมุมที่สวยงาม มากกว่าสิ่งที่มนุษย์สร้างขึ้นมาเสมอ อยู่ที่เราจะใช้สมอง..รึว่า..หัวใจมองสิ่งนั้น!! ชอบที่จะนั่งมองฟ้าเวลาเปลี่ยนสี ท่ามกลางหมู่ตึกมากมาย ก็สวยไปอีกแบบ #symphonyoflife #theloftssilom #raimonland #sunset #sky #change #twilight #nightlight #alone #mytime #bangkok #thailand</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/Bb6ny0wBgpE/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW ORIGINAL POST</a>">
-					<img src="../images/slide/winner_08.jpg" id="item-8" />
-				</a>
-				<a href="../images/slide/winner_large09.jpg"  title="" data-fancybox="images" data-type="image" data-caption="<span class='username-ui'>Account Name: BenJa Boota <br>Award: 3rd prize <br>Prize: Jo Malone Pomegranate Noir<br>Value at THB 3,900</span><br /><br><span class='comments-ui'>ไลฟ์สไตล์เรา คือ การก้าวออกไปเพื่อไปเจอสิ่งใหม่ๆ ไปสัมผัสโลกกว้าง ออกไปเที่ยวเพื่อเก็บภาพความประทับใจ ช่วงเวลาและความทรงจำดีๆกับสถานที่ท่องเที่ยวสวยๆที่เราได้ไปสัมผัส เพราะทุกที่มีเสน่ห์ในตัวเอง เมื่อเวลาผ่านไปแล้วย้อนกับมาดูภาพเหล่านั้นจะเห็นว่าเรายิ้ม อย่างมีความสุข การท่องเที่ยวทำให้เราได้เปิดโลกกว้างและเห็นมุมมองใหม่ๆ มีสถานที่ท่องเที่ยวที่สวยงามอีกมากมายรอให้เราไปสัมผัส อาหารอร่อยๆ ผู้คน บ้านเมือง ภาษา วัฒนธรรม อย่าใช้ชีวิตเป็นเส้นตรงมากนัก เลี้ยวซ้ายบ้าง ขวาบ้าง แวะข้างทางบ้าง เพื่อแต่งแต้มชีวิตให้มีสีสัน แค่สะพายกล้องซักตัว แบกเป้ซักใบ และคนรู้ใจซักคนหรือครอบครัวและเพื่อนๆ พากันออกไปเที่ยว แล้วจะได้อะไรมากมาย 🌟เพราะโลกมันกว้าง คนข้างๆจึงสำคัญเสมอ🌟 #symphonyoflife #theloftssilom Raimon Land</span><br><br><a target='_blank' class='link-ui' href='https://www.facebook.com/benjay.jwalkerz/posts/2128129370546497' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW ORIGINAL POST</a>">
-					<img src="../images/slide/winner_09.jpg" id="item-9" />
-				</a>
-			</div>
-
-			<div id="myCarousel" class="carousel slide carousel_mobile visible-xs" data-ride="carousel">
-				
-
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner">
-
-                    <div class="item">
-						<a href="../images/slide/winner_large02.jpg" title="" data-fancybox="group" data-type="image"  data-caption="<span class='username-ui'>Account Name: mimipatthawan <br>Award: 1st prize <br>Prize: Bang & Olufsen<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>ความสุขของการเดินทางคือเพื่อนรวมทาง #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BZaGJ5XDDfo/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW ORIGINAL POST</a>">
-							<img src="../images/slide/winner_02.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
-							<div class="carousel-caption">
-							<p>Account Name: mimipatthawan<br>Award: 1st prize <br>Prize: Bang & Olufsen<br>Value at THB 7,890</p>
-							</div>
-						</a>
-                    </div>
-                    
-					<div class="item active">
-						<a href="../images/slide/winner_large01.jpg" title="" data-fancybox="group" data-type="image"  data-caption="<span class='username-ui'>Account Name: Sastrawut Phonin <br>Award: 1st prize <br>Prize: Bang & Olufsen<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>ว่ายน้ำกับครอบครัวท่ามกลางบรรยากาศที่แสนวิเศษ แสงแดดยามเย็น ลมพัดอ่อนๆ และวิวที่งดงาม นี่คือ Symphony of Life #symphonyoflife #theloftssilom #raimonland</span><br><br><a target='_blank' class='link-ui' href='https://www.facebook.com/photo.php?fbid=10214079980612340&set=p.10214079980612340&type=3&theater' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW ORIGINAL POST</a>">
-							<img src="../images/slide/winner_01.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
-							<div class="carousel-caption">
-								<p>Account Name: Sastrawut Phonin<br>Award: 1st prize <br>Prize: Bang & Olufsen<br>Value at THB 7,890</p>
-							</div>
-						</a>
-					</div>
-
-					
-					
-					<div class="item">
-						<a href="../images/slide/winner_large03.jpg" title="" data-fancybox="groupgroup" data-type="image"  data-caption="<span class='username-ui'>Account Name: Pattanagorn Adirekkiat <br>Award: 1st prize <br>Prize: Bang & Olufsen<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>ฝนตกๆ บรรยากาศเหงาๆ ฟังเพลงคลอๆกับความอ้างว้างกันมั้ย? เดี๋ยวเราเล่นให้ฟังเอง :) Camera Man : Tanaporn Choopanya #symphonyoflife #theloftssilom #raimonland</span><br><br><a target='_blank' class='link-ui' href='https://www.facebook.com/Pattanagorn/posts/10155683767148664' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW ORIGINAL POST</a>">
-							<img src="../images/slide/winner_03.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
-							<div class="carousel-caption">
-							<p>Account Name: Pattanagorn Adirekkiat<br>Award: 1st prize <br>Prize: Bang & Olufsen<br>Value at THB 7,890</p>
-							</div>
-						</a>
-					</div>
-
-					<div class="item">
-						<a href="../images/slide/winner_large04.jpg"  title="" data-fancybox="group" data-type="image" data-caption="<span class='username-ui'>Account Name: Jakkrit Charoenporn <br>Award: 2nd prize <br>Prize: Polaroid Snap Touch<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>Symphony of life คือการสัมผัสถึงธรรมชาติรอบตัวเรา มองเห็นทัศนียภาพที่งดงาม เสียงร้องของนกที่ไพเราะ ไออุ่นจากแสงตะวันรุ่งอรุณ อากาศที่บริสุทธิ์ปลอดโปร่ง ล้วนสร้างอารมณ์ให้สุนทรีย์ #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.facebook.com/permalink.php?story_fbid=1966433990239415&id=100006184988437' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW ORIGINAL POST</a>">
-							<img src="../images/slide/winner_04.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
-							<div class="carousel-caption">
-								<p>Account Name: Jakkrit Charoenporn<br>Award: 2nd prize <br>Prize: Polaroid Snap Touch<br>Value at THB 7,890</p>
-							</div>
-						</a>
-					</div>
-
-					<div class="item">
-						<a href="../images/slide/winner_large05.jpg"  title="" data-fancybox="group" data-type="image" data-caption="<span class='username-ui'>Account Name: mr.thanawit <br>Award: 2nd prize <br>Prize: Polaroid Snap Touch<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>Free like a bird ... #free #befree #freedom #bird #wing #songbird #fly #flyaway #songbird #symphonyoflife #theloftssilom #raimonland #therivercondominium</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BZivb5yh6yd/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW ORIGINAL POST</a>">
-							<img src="../images/slide/winner_05.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
-							<div class="carousel-caption">
-								<p>Account Name: mr.thanawit<br>Award: 2nd prize <br>Prize: Polaroid Snap Touch<br>Value at THB 7,890</p>
-							</div>
-						</a>
-					</div>
-
-					<div class="item">
-						<a href="../images/slide/winner_large06.jpg"  title="" data-fancybox="group" data-type="image" data-caption="<span class='username-ui'>Account Name: Cholly Wachananont <br>Award: 2nd prize <br>Prize: Polaroid Snap Touch<br>Value at THB 7,890</span><br /><br><span class='comments-ui'>If a musician needs all the keys to play symphony. I, as a human being, need a beautiful place to live life. The loft Silom so is the symphony of my life. #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.facebook.com/cholly.wachananont/posts/10155831089554906' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW ORIGINAL POST</a>">
-							<img src="../images/slide/winner_06.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
-							<div class="carousel-caption">
-								<p>Account Name: Cholly Wachananont<br>Award: 2nd prize <br>Prize: Polaroid Snap Touch<br>Value at THB 7,890</p>
-							</div>
-						</a>
-					</div>
-
-					<div class="item">
-						<a href="../images/slide/winner_large07.jpg"  title="" data-fancybox="group" data-type="image" data-caption="<span class='username-ui'>Account Name: nsjournals <br>Award: 3rd prize <br>Prize: Jo Malone Pomegranate Noir<br>Value at THB 3,900</span><br /><br><span class='comments-ui'>Sights • Sounds • Scents • Tastes • Touches #symphonyoflife #theloftssilom</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/BZpwYz3FkFH/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW ORIGINAL POST</a>">
-							<img src="../images/slide/winner_07.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
-							<div class="carousel-caption">
-								<p>Account Name: nsjournals<br>Award: 3rd prize <brJo Malone Pomegranate Noir<br>Value at THB 3,900</p>
-							</div>
-						</a>
-					</div>
-
-					<div class="item">
-						<a href="../images/slide/winner_large08.jpg"  title="" data-fancybox="group" data-type="image" data-caption="<span class='username-ui'>Account Name: kanapuii <br>Award: 3rd prize <br>Prize: Jo Malone Pomegranate Noir<br>Value at THB 3,900</span><br /><br><span class='comments-ui'>ถึงแม้จะมีสิ่งก่อสร้างที่มาจาก น้ำมือมนุษย์มากมาย...ธรรมชาติก็มักจะมีมุมที่สวยงาม มากกว่าสิ่งที่มนุษย์สร้างขึ้นมาเสมอ อยู่ที่เราจะใช้สมอง..รึว่า..หัวใจมองสิ่งนั้น!! ชอบที่จะนั่งมองฟ้าเวลาเปลี่ยนสี ท่ามกลางหมู่ตึกมากมาย ก็สวยไปอีกแบบ #symphonyoflife #theloftssilom #raimonland #sunset #sky #change #twilight #nightlight #alone #mytime #bangkok #thailand</span><br><br><a target='_blank' class='link-ui' href='https://www.instagram.com/p/Bb6ny0wBgpE/' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW ORIGINAL POST</a>">
-							<img src="../images/slide/winner_08.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
-							<div class="carousel-caption">
-								<p>Account Name: kanapuii<br>Award: 3rd prize <brJo Malone Pomegranate Noir<br>Value at THB 3,900</p>
-							</div>
-						</a>
-					</div>
-
-					<div class="item">
-						<a href="../images/slide/winner_large09.jpg"  title="" data-fancybox="group" data-type="image" data-caption="<span class='username-ui'>Account Name: BenJa Boota <br>Award: 3rd prize <br>Prize: Jo Malone Pomegranate Noir<br>Value at THB 3,900</span><br /><br><span class='comments-ui'>ไลฟ์สไตล์เรา คือ การก้าวออกไปเพื่อไปเจอสิ่งใหม่ๆ ไปสัมผัสโลกกว้าง ออกไปเที่ยวเพื่อเก็บภาพความประทับใจ ช่วงเวลาและความทรงจำดีๆกับสถานที่ท่องเที่ยวสวยๆที่เราได้ไปสัมผัส เพราะทุกที่มีเสน่ห์ในตัวเอง เมื่อเวลาผ่านไปแล้วย้อนกับมาดูภาพเหล่านั้นจะเห็นว่าเรายิ้ม อย่างมีความสุข การท่องเที่ยวทำให้เราได้เปิดโลกกว้างและเห็นมุมมองใหม่ๆ มีสถานที่ท่องเที่ยวที่สวยงามอีกมากมายรอให้เราไปสัมผัส อาหารอร่อยๆ ผู้คน บ้านเมือง ภาษา วัฒนธรรม อย่าใช้ชีวิตเป็นเส้นตรงมากนัก เลี้ยวซ้ายบ้าง ขวาบ้าง แวะข้างทางบ้าง เพื่อแต่งแต้มชีวิตให้มีสีสัน แค่สะพายกล้องซักตัว แบกเป้ซักใบ และคนรู้ใจซักคนหรือครอบครัวและเพื่อนๆ พากันออกไปเที่ยว แล้วจะได้อะไรมากมาย 🌟เพราะโลกมันกว้าง คนข้างๆจึงสำคัญเสมอ🌟 #symphonyoflife #theloftssilom Raimon Land</span><br><br><a target='_blank' class='link-ui' href='https://www.facebook.com/benjay.jwalkerz/posts/2128129370546497' style='text-decoration: underline; font-family: Helvetica; font-size:12px;'> VIEW ORIGINAL POST</a>">
-							<img src="../images/slide/winner_09.jpg" alt="Symphony of Life by The Lofts Silom" style="width:100%;">
-							<div class="carousel-caption">
-								<p>Account Name: BenJa Boota<br>Award: 3rd prize <brJo Malone Pomegranate Noir<br>Value at THB 3,900</p>
-							</div>
-						</a>
-					</div>
-
-				</div>
-
-				<!-- Left and right controls -->
-				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="right carousel-control" href="#myCarousel" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
-
-		</div>
-		<div class="runner_up wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">9 Top Prizes</div>
-		<div class="text_bottom"><p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="2s"><span>Thank you for your participation. We will contact you shortly.</span><br>Search by your Instagram / Facebook account to see if you win a prize.</p></div>
+		
+		
+		<div class="text_bottom">
+            <div class="runner_up wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">Congratulations! you have won a prize. <br>Our staff will contact you shortly.</div>    
+            <!-- <p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="2s">Search by your Instagram / Facebook account to see if you win a prize.</p> -->
+        </div>
 		<span class="discover_more wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
 			<div class="js-sticky">
 				<div class="fh5co-main-nav">

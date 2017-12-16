@@ -6,6 +6,7 @@
 	$_POST['email'];
 	$_POST['phone'];
 	$_POST['prize'];*/
+
 	
 	  $email = $_POST['email'];
 	  $firstname = $_POST['first_name'];

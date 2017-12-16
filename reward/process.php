@@ -33,10 +33,10 @@
 		}
 		echo '</tbody></table>';
 	} else { 
-		echo "<p>Data Not Found.</p>"; 
+		echo "<p>Thank you for joining the Symphony of Life activity. Unfortunately, you do not win any prizes for this time. <br>Keep following us at Raimon Land Facebook for the chance to win a lot more prizes on the upcoming activity soon.</p>"; 
 	}
 	
 	} else { 
-		echo "<p>Data Not Found.</p>"; 
+		echo "<p>Thank you for joining the Symphony of Life activity. Unfortunately, you do not win any prizes for this time. <br>Keep following us at Raimon Land Facebook for the chance to win a lot more prizes on the upcoming activity soon.</p>"; 
 	} 
 ?>
